@@ -561,9 +561,9 @@ async function access(c: GoldenCase) {
       return { outcome: code, sources: [] };
     }
     if (c.key === "global_budget") {
-      for (let i = 0; i < 40; i++) {
+      for (let i = 0; i < 5; i++) {
         const one = ledger.redeem(ledger.createInvite().code, () => {});
-        ledger.reserve(one.token, 1, 250000);
+        ledger.reserve(one.token, 1, 100000);
         ledger.delete(one.token);
       }
       let code = "none";

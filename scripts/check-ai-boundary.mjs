@@ -38,7 +38,7 @@ try {
       path.join(root, "node_modules", "next", "dist", "bin", "next"),
       "build",
       fixture,
-      "--webpack",
+      "--turbopack",
     ],
     {
       cwd: root,

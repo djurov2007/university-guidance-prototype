@@ -342,8 +342,10 @@ describe("complete synthetic conversation through fake OpenAI transport", () => 
     const r = rig("published");
     await r.complete();
     const result = await r.search();
-    expect(result.matching?.status).toBe("no_match");
+    expect(result.matching?.status).toBe("permission_required");
     expect(result.matching?.options).toEqual([]);
-    expect(result.issue?.code).toBe("NO_CATALOG_MATCH");
+    // Reviewed catalogue alternatives stay hidden until explicit permission.
+    expect(result.matching?.mode).toBe("published");
+    expect(result.matching?.permissionRequests.length).toBeGreaterThan(0);
   });
 });

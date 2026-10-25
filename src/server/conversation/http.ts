@@ -130,7 +130,13 @@ function tokenFrom(request: Request) {
   return value && /^[A-Za-z0-9_-]{43}$/.test(value) ? value : null;
 }
 export async function readBody(request: Request): Promise<unknown> {
-  if (!request.headers.get("content-type")?.startsWith("application/json"))
+  if (
+    request.headers
+      .get("content-type")
+      ?.split(";", 1)[0]
+      ?.trim()
+      .toLowerCase() !== "application/json"
+  )
     throw new FlowError("INVALID_REQUEST", "Send a valid request.", 415);
   const declared = Number(request.headers.get("content-length") ?? "0");
   if (declared > 40000)
@@ -213,10 +219,11 @@ export async function handleFlow(
 ) {
   try {
     localRequestGuard(request);
-    const body = await readBody(request);
     const token = tokenFrom(request);
     const access = control?.require(token);
     if (control && token) control.rate(`session:${token}`);
+    // Reject unauthorised and exhausted sessions before reading attacker-controlled streams.
+    const body = await readBody(request);
     if (
       endpoint === "chat" &&
       body &&

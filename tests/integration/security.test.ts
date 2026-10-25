@@ -14,6 +14,7 @@ import {
   handleDetails,
   handleDelete,
   handleUpload,
+  readBody,
 } from "../../src/server/conversation/http";
 const ledgers: ControlLedger[] = [];
 const ledger = (path = ":memory:", now = Date.now) => {
@@ -302,6 +303,23 @@ describe("invited HTTP and profile isolation", () => {
 });
 
 describe("additional quota and lifecycle regressions", () => {
+  it("rejects unauthenticated bodies before reading or parsing them", async () => {
+    const l = ledger();
+    const s = new ConversationService({ control: l });
+    const request = req({ action: "resume" });
+    const response = await handleFlow(request, "chat", s, l);
+    expect(response.status).toBe(401);
+    expect(request.bodyUsed).toBe(false);
+  });
+  it("rejects misleading JSON media types", async () => {
+    const request = new Request("http://127.0.0.1:3000", {
+      method: "POST",
+      headers: { "Content-Type": "application/json-malicious" },
+      body: "{}",
+    });
+    await expect(readBody(request)).rejects.toMatchObject({ status: 415 });
+    expect(request.bodyUsed).toBe(false);
+  });
   it("enforces the daily financial stop across deleted sessions", () => {
     const l = ledger();
     for (let n = 0; n < 5; n++) {
