@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.2",
+  "channel": "staging",
+  "preparedOn": "2026-10-17",
+  "institutions": [
+    {
+      "id": "twente",
+      "name": "University of Twente",
+      "country": "NL",
+      "officialHosts": ["utwente.nl"]
+    }
+  ],
+  "programs": [
+    {
+      "id": "twente-bme",
+      "institutionId": "twente",
+      "name": "Biomedical Engineering (M.Sc.)",
+      "level": "master",
+      "country": "NL",
+      "city": "Enschede",
+      "field": "Engineering",
+      "subfield": "Biomedical engineering",
+      "classificationBasis": "editorial",
+      "verification": "partial",
+      "notes": "International-degree eligibility, relevant-course grades, CGPA equivalence and any pre-master are assessed individually. The e-check is indicative and is not an admission decision."
+    }
+  ],
+  "intakes": [
+    {
+      "id": "twente-bme-intake",
+      "programId": "twente-bme",
+      "academicYear": "2027/2028",
+      "label": "September 2027 intake",
+      "scope": "year_bound"
+    }
+  ],
+  "sources": [
+    {
+      "id": "twente-bme-program",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "Twente Biomedical Engineering factsheet",
+      "url": "https://www.utwente.nl/en/education/master/programmes/biomedical-engineering/masters-structure/factsheet/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-admission",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "Twente BME international-degree requirements",
+      "url": "https://www.utwente.nl/en/education/master/programmes/biomedical-engineering/admission/admission-international/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-master-fees",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "Twente annual master fees and rate mapping",
+      "url": "https://www.utwente.nl/en/education/master/tuition-fees/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-overview",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "University of Twente Biomedical Engineering overview",
+      "url": "https://www.utwente.nl/en/education/master/programmes/biomedical-engineering/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned programme page confirming degree, location, duration, language and 2027 starts; it does not decide candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-master-deadline-policy",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "University of Twente master's application deadline policy",
+      "url": "https://www.utwente.nl/en/education/master/application-admission/deadlines/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned admissions page explaining nationality scope and complete-document submission; programme dates remain sourced from the BME factsheet.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "facts": [
+    {
+      "id": "twente-bme-institution-name-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "institution_name",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "University of Twente"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: University of Twente. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-name-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "name",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Biomedical Engineering (M.Sc.)"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Biomedical Engineering (M.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-level-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "level",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "master"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: master. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-country-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "country",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "NL"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: NL. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-city-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "city",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Enschede"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Enschede. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-academic-year-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "academic_year",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "2027/2028"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Academic-year scope 2027/2028."
+    },
+    {
+      "id": "twente-bme-language-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "language",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "list",
+        "items": ["English"]
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "English programme."
+    },
+    {
+      "id": "twente-bme-duration-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "duration",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "duration",
+        "amount": 2,
+        "unit": "years"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Two years."
+    },
+    {
+      "id": "twente-bme-intake-start-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "intake_start",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2027-09-01",
+        "time": null,
+        "timezone": null,
+        "note": "Exact date only for stated intake; not rolled to a future year."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Selected September 2027 intake; February deadlines are separate."
+    },
+    {
+      "id": "twente-bme-tuition-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "tuition",
+      "qualifier": "main",
+      "candidateCategory": "Non-EU/EEA applicants assigned the higher institutional fee; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 22320,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "EUR 22,320 is the 2027/28 annual higher-rate institutional tuition fee. It is not the two-year total or an individual fee decision; later-year rates can rise."
+    },
+    {
+      "id": "twente-bme-tuition-statutory",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "tuition",
+      "qualifier": "statutory",
+      "candidateCategory": "Applicants individually meeting statutory-fee conditions; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 2771,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "EUR 2,771 is the 2027/28 annual statutory fee. EU/EEA status usually applies but does not by itself prove individual eligibility; no two-year total is inferred."
+    },
+    {
+      "id": "twente-bme-other-cost-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "other_cost",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "A complete personalised total for living, insurance, travel, application fees, deposits and furnishings is not established.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "A complete personalised total for living, insurance, travel, application fees, deposits and furnishings is not established."
+    },
+    {
+      "id": "twente-bme-application-requirement-degree",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "degree",
+      "candidateCategory": "Applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Relevant Biomedical Engineering/Technology bachelor degree required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "The listed direct background is BSc Biomedical Engineering or Biomedical Technology. Final admissibility, relevant-course grades and any pre-master are assessed individually."
+    },
+    {
+      "id": "twente-bme-application-requirement-math",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "math",
+      "candidateCategory": "Applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Calculus and linear algebra background required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Subject-level transcript check still needed."
+    },
+    {
+      "id": "twente-bme-application-requirement-bet",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "bet",
+      "candidateCategory": "Bioengineering Technologies specialisation applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Cell biology and biochemistry background for Bioengineering Technologies."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Specialisation-specific requirement; not a blanket requirement for every specialisation."
+    },
+    {
+      "id": "twente-bme-application-deadline-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "application_deadline",
+      "qualifier": "main",
+      "candidateCategory": "Non-EU/EEA September 2027 applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2027-05-01",
+        "time": null,
+        "timezone": null,
+        "note": "Programme factsheet date for September 2027. Exact cutoff time and timezone are not stated; all requested documents must be submitted before the applicable deadline."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Programme factsheet date for September 2027. Exact cutoff time and timezone are not stated; all requested documents must be submitted before the applicable deadline."
+    },
+    {
+      "id": "twente-bme-application-deadline-eu",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "application_deadline",
+      "qualifier": "eu",
+      "candidateCategory": "EU/EEA September 2027 applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2027-07-01",
+        "time": null,
+        "timezone": null,
+        "note": "Programme factsheet date for September 2027. Exact cutoff time and timezone are not stated; all requested documents must be submitted before the applicable deadline."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Programme factsheet date for September 2027. Exact cutoff time and timezone are not stated; all requested documents must be submitted before the applicable deadline."
+    },
+    {
+      "id": "twente-bme-institutional-requirement-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "institutional_requirement",
+      "qualifier": "main",
+      "candidateCategory": "Applicants with an international degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "English-language evidence must be complete before application deadline."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "English proof must meet the September 2027 test, score, age and exemption rules before the deadline. The institution verifies evidence; no extra waiver or automatic exemption is inferred."
+    },
+    {
+      "id": "twente-bme-scholarship-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "scholarship",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "No specific scholarship is bound to this programme and applicant with verified 2027 eligibility, award amount and applicable deadline.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "The university lists possible master's funding, but admission and scholarship applications are separate and no award is guaranteed."
+    },
+    {
+      "id": "twente-bme-other-cost-living-estimate",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "other_cost",
+      "qualifier": "monthly-living-estimate",
+      "candidateCategory": "Illustrative student budget; September 2027 intake",
+      "nature": "estimate",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 1311,
+        "currency": "EUR",
+        "period": "month",
+        "basis": "estimate",
+        "note": "Published average monthly living estimate excluding tuition; not a quote, minimum or complete personalised budget."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "The official page attributes the estimate to Nibud and warns that actual costs vary. Deposits, furnishings, travel, application fees and tuition are not made complete by this figure."
+    },
+    {
+      "id": "twente-bme-application-requirement-cgpa",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "cgpa",
+      "candidateCategory": "Applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "CGPA of at least 75% of the maximum score, or the country equivalent."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Meeting the minimum does not guarantee admission; the committee also reviews relevant courses and their grades. Country equivalence remains an institutional assessment."
+    },
+    {
+      "id": "twente-bme-application-requirement-documents",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "documents",
+      "candidateCategory": "Applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Diploma copy, transcript, motivation letter up to 1,000 words and résumé are required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "The application may start before graduation, but completion before the academic year remains required. Document acceptance and completeness are assessed by the institution."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-31",
+      "factId": "twente-bme-institution-name-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: University of Twente. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-32",
+      "factId": "twente-bme-name-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Biomedical Engineering (M.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-33",
+      "factId": "twente-bme-level-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: master. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-34",
+      "factId": "twente-bme-country-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: NL. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-35",
+      "factId": "twente-bme-city-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Enschede. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-36",
+      "factId": "twente-bme-academic-year-main",
+      "sourceId": "twente-master-fees",
+      "relation": "supports",
+      "locator": "September intake fee table, 2027-2028 (Sep-Aug)",
+      "paraphrase": "The fee authority explicitly labels the September 2027 academic year as 2027-2028; the programme start is separately confirmed as 1 September 2027.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-93",
+      "factId": "twente-bme-language-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Factsheet, language",
+      "paraphrase": "English programme.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-94",
+      "factId": "twente-bme-duration-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Factsheet, duration",
+      "paraphrase": "Two years.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-95",
+      "factId": "twente-bme-intake-start-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Start and application deadline table, September 2027",
+      "paraphrase": "Selected September 2027 intake; February deadlines are separate.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-96",
+      "factId": "twente-bme-tuition-main",
+      "sourceId": "twente-master-fees",
+      "relation": "supports",
+      "locator": "Higher-rate programmes includes BME; September 2027/28 annual institutional-fee table",
+      "paraphrase": "22320 EUR per year, not full two-year cost. Factsheet wording full period is clarified by annual-fee authority.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-97",
+      "factId": "twente-bme-tuition-statutory",
+      "sourceId": "twente-master-fees",
+      "relation": "supports",
+      "locator": "Statutory full-time September 2027/28 table",
+      "paraphrase": "2771 EUR per year conditional on statutory eligibility; not all EU students qualify.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-98",
+      "factId": "twente-bme-application-requirement-degree",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "International university-degree requirements",
+      "paraphrase": "Individual degree assessment and possible pre-master differ by case.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-99",
+      "factId": "twente-bme-application-requirement-math",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Subject knowledge requirements",
+      "paraphrase": "Subject-level transcript check still needed.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-100",
+      "factId": "twente-bme-application-requirement-bet",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Specific knowledge, Bioengineering Technologies",
+      "paraphrase": "Specialisation-specific requirement; not a blanket requirement for every specialisation.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-101",
+      "factId": "twente-bme-application-deadline-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Deadline table, September 2027 non-EU",
+      "paraphrase": "Non-EU September deadline; exact cutoff time not confirmed.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-102",
+      "factId": "twente-bme-application-deadline-eu",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Deadline table, September 2027 EU",
+      "paraphrase": "EU September deadline; exact cutoff time not confirmed.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-103",
+      "factId": "twente-bme-institutional-requirement-main",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Language skills; September 2027 and onwards; English exemptions",
+      "paraphrase": "English evidence must be satisfied before the application deadline. Accepted tests, minimum scores, validity and formal exemptions are stated for September 2027 and remain subject to institutional verification.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-application-deadline-main-policy-20261017",
+      "factId": "twente-bme-application-deadline-main",
+      "sourceId": "twente-master-deadline-policy",
+      "relation": "context",
+      "locator": "Nationality basis and complete-document submission",
+      "paraphrase": "Nationality determines the applicable deadline and all requested documents must be uploaded and submitted before it. The page does not add a cutoff time or replace the programme-specific date.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-application-deadline-eu-policy-20261017",
+      "factId": "twente-bme-application-deadline-eu",
+      "sourceId": "twente-master-deadline-policy",
+      "relation": "context",
+      "locator": "Nationality basis and complete-document submission",
+      "paraphrase": "Nationality determines the applicable deadline and all requested documents must be uploaded and submitted before it. The page does not add a cutoff time or replace the programme-specific date.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-living-estimate-20261017",
+      "factId": "twente-bme-other-cost-living-estimate",
+      "sourceId": "twente-master-fees",
+      "relation": "supports",
+      "locator": "Monthly living costs",
+      "paraphrase": "The university page reports an average EUR 1,311 monthly living-cost estimate excluding tuition and states that actual costs vary.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-cgpa-20261017",
+      "factId": "twente-bme-application-requirement-cgpa",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Required documents",
+      "paraphrase": "International-degree applicants need at least 75% of the maximum CGPA or country equivalent; this does not guarantee admission and relevant-course grades are reviewed.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-documents-20261017",
+      "factId": "twente-bme-application-requirement-documents",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Required documents",
+      "paraphrase": "The listed documents include diploma, transcript, motivation letter capped at 1,000 words and résumé.",
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "twente-bme-final-review-pending-20261017",
+      "programId": "twente-bme",
+      "reviewer": "Viktor",
+      "reviewerKind": "human",
+      "decision": "pending",
+      "reviewedOn": "2026-10-17",
+      "contentDigest": "3ca772f20723707cbd2ae5cf6d2d80ba9737252d0eca137e3fca5a30d44beeed",
+      "checklistComplete": false,
+      "acceptedUnknownFactIds": [],
+      "note": "Reviewer assigned. This exact revised digest and both visible unknowns still require a final human publication decision."
+    }
+  ]
+}

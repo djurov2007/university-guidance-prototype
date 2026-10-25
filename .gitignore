@@ -1,0 +1,25 @@
+node_modules/
+.next/
+.cache/
+.local/
+out/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+.env*
+!.env.example
+*.log
+*.sqlite
+*.sqlite-*
+next-env.d.ts
+.railway/
+
+# Original product strategy stays local and is excluded from the public repository.
+/AI_platforma_Master_plan.pdf
+
+/AGENTS.md
+/.agent/
+/docs/DECISIONS.md
+/docs/OPEN_QUESTIONS.md
+/docs/plans/

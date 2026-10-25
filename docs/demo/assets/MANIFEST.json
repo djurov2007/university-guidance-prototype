@@ -1,0 +1,83 @@
+{
+  "version": "phase1-demo-1",
+  "date": "2026-10-11",
+  "synthetic": true,
+  "video": {
+    "seconds": 69.68,
+    "width": 1280,
+    "height": 720,
+    "narration": false
+  },
+  "files": [
+    {
+      "file": "01-questions.png",
+      "bytes": 190211,
+      "sha256": "c9f055883c5d3a4abca84a328ba7083f4c70b76360718bb1b539e900ebc2140f"
+    },
+    {
+      "file": "02-bachelor-sources.png",
+      "bytes": 266849,
+      "sha256": "de3f1f2370ea6659d56b16e58221587d2e0b3aa54a4c242684dbe5d3adb53192"
+    },
+    {
+      "file": "03-out-of-scope.png",
+      "bytes": 257552,
+      "sha256": "98fe1943ed4764cdc406c37c452d1185a4d9c920a88a1f4547fa41c1eec1b2ee"
+    },
+    {
+      "file": "04-master-unknown.png",
+      "bytes": 280859,
+      "sha256": "ecf9a7f877c9c4f105c7052f4e897cb6be40f0488f3c8abec1411b2a011ac34c"
+    },
+    {
+      "file": "05-master-subjects.png",
+      "bytes": 301285,
+      "sha256": "49ba4d1097a3a76703f7d9acc9a6aeae3dbf691b2e130385b69bbcab197923ad"
+    },
+    {
+      "file": "06-phd-funding.png",
+      "bytes": 333106,
+      "sha256": "b0f46354f22bae02ef2ff5bff3534e541f8d4b51a0d3215f4b0e8f72eaa390f6"
+    },
+    {
+      "file": "07-no-match.png",
+      "bytes": 207617,
+      "sha256": "97b72b03fd4533e10e0dca4cdf79060b0ac613db9a6635fb57397ff07862c7da"
+    },
+    {
+      "file": "08-alternative-hidden.png",
+      "bytes": 212819,
+      "sha256": "1d787c97dbd7c9e9553626418424eccef213a219e8a29dfa28750111ea5c1086"
+    },
+    {
+      "file": "09-alternative-permitted.png",
+      "bytes": 273832,
+      "sha256": "1df2c2a23ab974c2312583092884945d36199676471e00e3ec89f92a1355f36c"
+    },
+    {
+      "file": "10-conflict.png",
+      "bytes": 217471,
+      "sha256": "e434489c5d72a6a89ff9b75e51588b689da5384eaf7a3c1bdd63eb133d376450"
+    },
+    {
+      "file": "11-provider-failure.png",
+      "bytes": 201603,
+      "sha256": "20397ff3ea1b007a2e681d896f7d26157b95fa5b846485c86e3db533c9cb938e"
+    },
+    {
+      "file": "12-deterministic-recovery.png",
+      "bytes": 247528,
+      "sha256": "23a6a118bf5bc925fd8b66ed92e33d2f984b6d4713e4db1926800ed7fb5d29a0"
+    },
+    {
+      "file": "demo-backup.webm",
+      "bytes": 4176114,
+      "sha256": "7960df575c527150da9771115fdce543e3295b23dcb12c40d7b005bdd32de79d"
+    },
+    {
+      "file": "index.html",
+      "bytes": 9285,
+      "sha256": "622a9736e78d4c42731356ba2785c40fd632e0a38e19384cc0ac00cb316c18f1"
+    }
+  ]
+}

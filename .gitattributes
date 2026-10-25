@@ -1,0 +1,8 @@
+* text=auto
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.pdf -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.webm -text

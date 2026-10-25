@@ -1,0 +1,70 @@
+{
+  "name": "university-guidance-prototype",
+  "version": "0.1.0",
+  "description": "Explainable, source-backed university guidance prototype with controlled AI integration.",
+  "author": "Viktor Đurov",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djurov2007/university-guidance-prototype.git"
+  },
+  "homepage": "https://university-guidance-prototype-production.up.railway.app",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.6.4",
+  "engines": {
+    "node": "^24.0.0",
+    "npm": ">=11 <12"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "eval:golden": "node --conditions=react-server scripts/evaluate-golden.mjs",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:boundary": "node scripts/check-server-boundary.mjs",
+    "catalog:check": "node --conditions=react-server scripts/check-catalog.mjs",
+    "catalog:report": "node --conditions=react-server scripts/catalog-report.mjs",
+    "catalog:review": "node --conditions=react-server scripts/catalog-review-packet.mjs",
+    "profile:demo": "node scripts/profile-demo.mjs",
+    "profile:report": "node scripts/profile-report.mjs",
+    "matching:demo": "node --conditions=react-server scripts/matching-demo.mjs",
+    "test:ai-boundary": "node scripts/check-ai-boundary.mjs",
+    "invitation:create": "node --conditions=react-server scripts/invitations.mjs create",
+    "invitation:revoke": "node --conditions=react-server scripts/invitations.mjs revoke",
+    "ai:demo": "node --conditions=react-server scripts/ai-demo.mjs",
+    "ai:status": "node --conditions=react-server scripts/local-live-ai.mjs",
+    "ai:live": "node --conditions=react-server scripts/local-live-ai.mjs --approve-one-call",
+    "ai:browser": "node --conditions=react-server scripts/browser-ai-smoke.mjs",
+    "ai:full-flow": "node --conditions=react-server scripts/full-flow-ai.mjs"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "1.3.3",
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "0.0.1",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "24.19.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.8",
+    "postcss": "8.5.29",
+    "prettier": "3.9.9",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3",
+    "vite": "8.3.2",
+    "vitest": "5.0.3"
+  }
+}

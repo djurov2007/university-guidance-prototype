@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "./study.css";
+@import "./conversation.css";
+
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+body {
+  margin: 0;
+}

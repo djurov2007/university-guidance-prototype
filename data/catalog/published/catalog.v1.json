@@ -1,0 +1,4568 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.3",
+  "channel": "published",
+  "preparedOn": "2026-10-17",
+  "institutions": [
+    {
+      "id": "twente",
+      "name": "University of Twente",
+      "country": "NL",
+      "officialHosts": ["utwente.nl"]
+    },
+    {
+      "id": "etf",
+      "name": "University of Belgrade — School of Electrical Engineering",
+      "country": "RS",
+      "officialHosts": ["etf.bg.ac.rs"]
+    },
+    {
+      "id": "passau",
+      "name": "University of Passau",
+      "country": "DE",
+      "officialHosts": ["uni-passau.de"]
+    },
+    {
+      "id": "bologna",
+      "name": "University of Bologna",
+      "country": "IT",
+      "officialHosts": ["unibo.it"]
+    },
+    {
+      "id": "tum",
+      "name": "Technical University of Munich",
+      "country": "DE",
+      "officialHosts": ["tum.de"]
+    }
+  ],
+  "programs": [
+    {
+      "id": "twente-psych",
+      "institutionId": "twente",
+      "name": "Psychology — English track (B.Sc.)",
+      "level": "undergraduate",
+      "country": "NL",
+      "city": "Enschede",
+      "field": "Social sciences",
+      "subfield": "Psychology",
+      "classificationBasis": "editorial",
+      "verification": "partial",
+      "notes": "Dutch track is separate. Statutory fee eligibility and individual foreign diploma equivalence not established."
+    },
+    {
+      "id": "twente-bme",
+      "institutionId": "twente",
+      "name": "Biomedical Engineering (M.Sc.)",
+      "level": "master",
+      "country": "NL",
+      "city": "Enschede",
+      "field": "Engineering",
+      "subfield": "Biomedical engineering",
+      "classificationBasis": "editorial",
+      "verification": "partial",
+      "notes": "International-degree eligibility, relevant-course grades, CGPA equivalence and any pre-master are assessed individually. The e-check is indicative and is not an admission decision."
+    },
+    {
+      "id": "etf-si",
+      "institutionId": "etf",
+      "name": "Softversko inženjerstvo",
+      "level": "undergraduate",
+      "country": "RS",
+      "city": "Belgrade",
+      "field": "Computing",
+      "subfield": "Software engineering",
+      "classificationBasis": "editorial",
+      "verification": "partial",
+      "notes": "Historical 2026/27 third-round record; applications closed on 17 September 2026. The 2027 call, exact teaching start, complete costs and scholarship remain unknown. Teaching is in Serbian."
+    },
+    {
+      "id": "passau-cs",
+      "institutionId": "passau",
+      "name": "Computer Science (B.Sc.)",
+      "level": "undergraduate",
+      "country": "DE",
+      "city": "Passau",
+      "field": "Computing",
+      "subfield": "Computer science",
+      "classificationBasis": "editorial",
+      "verification": "partial",
+      "notes": "Current general policy, not a year-bound intake. April/October starts and recurring application routes require a future intake check. No tuition is separate from semester fees and living costs."
+    },
+    {
+      "id": "bologna-clef",
+      "institutionId": "bologna",
+      "name": "Economics and Finance",
+      "level": "undergraduate",
+      "country": "IT",
+      "city": "Bologna",
+      "field": "Economics",
+      "subfield": "Economics and finance",
+      "classificationBasis": "editorial",
+      "verification": "partial",
+      "notes": "Historical 2026/27 first-round record for programme code 6646; applications closed on 4 May 2026. Later rounds differ by candidate category and no 2027 rollover is inferred."
+    },
+    {
+      "id": "tum-informatics",
+      "institutionId": "tum",
+      "name": "Informatics (M.Sc.)",
+      "level": "master",
+      "country": "DE",
+      "city": "Garching",
+      "field": "Computing",
+      "subfield": "Informatics",
+      "classificationBasis": "editorial",
+      "verification": "partial",
+      "notes": "Current general policy with recurring winter/summer application windows, not a confirmed future intake. Teaching is usually English; individual degree equivalence, fees and waivers require assessment."
+    },
+    {
+      "id": "bologna-im",
+      "institutionId": "bologna",
+      "name": "International Management",
+      "level": "master",
+      "country": "IT",
+      "city": "Bologna",
+      "field": "Business",
+      "subfield": "International management",
+      "classificationBasis": "editorial",
+      "verification": "partial",
+      "notes": "Historical 2026/27 selection for second-cycle programme code 6803; applications closed on 8 April 2026. This is not the MIEX professional master and no 2027 call is inferred."
+    },
+    {
+      "id": "bologna-phd-cse",
+      "institutionId": "bologna",
+      "name": "Computer Science and Engineering",
+      "level": "phd",
+      "country": "IT",
+      "city": "Bologna",
+      "field": "Computing",
+      "subfield": "Computer science and engineering",
+      "classificationBasis": "editorial",
+      "verification": "partial",
+      "notes": "Historical cycle 42 third-round record; applications closed on 8 October 2026 and the course start was scheduled for 1 November 2026. The three funded positions are topic-restricted; admission and funding are not guaranteed."
+    }
+  ],
+  "intakes": [
+    {
+      "id": "twente-psych-intake",
+      "programId": "twente-psych",
+      "academicYear": "2027/2028",
+      "label": "September 2027 English numerus-fixus intake",
+      "scope": "year_bound"
+    },
+    {
+      "id": "twente-bme-intake",
+      "programId": "twente-bme",
+      "academicYear": "2027/2028",
+      "label": "September 2027 intake",
+      "scope": "year_bound"
+    },
+    {
+      "id": "etf-si-intake",
+      "programId": "etf-si",
+      "academicYear": "2026/2027",
+      "label": "Third admission round 2026; closed on 17 September 2026",
+      "scope": "year_bound"
+    },
+    {
+      "id": "passau-cs-intake",
+      "programId": "passau-cs",
+      "academicYear": null,
+      "label": "Current general policy; recurring April/October starts",
+      "scope": "general_policy"
+    },
+    {
+      "id": "bologna-clef-intake",
+      "programId": "bologna-clef",
+      "academicYear": "2026/2027",
+      "label": "First admission round 2026; closed on 4 May 2026",
+      "scope": "year_bound"
+    },
+    {
+      "id": "tum-informatics-intake",
+      "programId": "tum-informatics",
+      "academicYear": null,
+      "label": "Current general policy; recurring winter/summer admissions",
+      "scope": "general_policy"
+    },
+    {
+      "id": "bologna-im-intake",
+      "programId": "bologna-im",
+      "academicYear": "2026/2027",
+      "label": "2026 selection; closed on 8 April 2026",
+      "scope": "year_bound"
+    },
+    {
+      "id": "bologna-phd-cse-intake",
+      "programId": "bologna-phd-cse",
+      "academicYear": "2026/2027",
+      "label": "Cycle 42 third admission round; closed on 8 October 2026",
+      "scope": "year_bound"
+    }
+  ],
+  "sources": [
+    {
+      "id": "twente-psych-program",
+      "institutionId": "twente",
+      "programIds": ["twente-psych"],
+      "intakeIds": ["twente-psych-intake"],
+      "title": "Twente Psychology programme",
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/psychology/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-psych-admission",
+      "institutionId": "twente",
+      "programIds": ["twente-psych"],
+      "intakeIds": ["twente-psych-intake"],
+      "title": "Twente Psychology admission requirements",
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/psychology/enrolment/admission-requirements/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-psych-selection",
+      "institutionId": "twente",
+      "programIds": ["twente-psych"],
+      "intakeIds": ["twente-psych-intake"],
+      "title": "Twente Psychology English-track selection",
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/psychology/enrolment/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-psych-fees",
+      "institutionId": "twente",
+      "programIds": ["twente-psych"],
+      "intakeIds": ["twente-psych-intake"],
+      "title": "Twente Psychology annual fees 2027/28",
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/psychology/enrolment/tuition-fees-interational/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-psych-fee-conditions",
+      "institutionId": "twente",
+      "programIds": ["twente-psych"],
+      "intakeIds": ["twente-psych-intake"],
+      "title": "UT statutory and institutional tuition fee conditions",
+      "url": "https://www.utwente.nl/en/education/student-services/upcoming-students/money-matters/tuitionfees/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University Student Services fee conditions linked from the official Psychology fee page. Conditions do not establish an individual applicant's classification.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-program",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "Twente Biomedical Engineering factsheet",
+      "url": "https://www.utwente.nl/en/education/master/programmes/biomedical-engineering/masters-structure/factsheet/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-admission",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "Twente BME international-degree requirements",
+      "url": "https://www.utwente.nl/en/education/master/programmes/biomedical-engineering/admission/admission-international/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-master-fees",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "Twente annual master fees and rate mapping",
+      "url": "https://www.utwente.nl/en/education/master/tuition-fees/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-overview",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "University of Twente Biomedical Engineering overview",
+      "url": "https://www.utwente.nl/en/education/master/programmes/biomedical-engineering/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned programme page confirming degree, location, duration, language and 2027 starts; it does not decide candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-master-deadline-policy",
+      "institutionId": "twente",
+      "programIds": ["twente-bme"],
+      "intakeIds": ["twente-bme-intake"],
+      "title": "University of Twente master's application deadline policy",
+      "url": "https://www.utwente.nl/en/education/master/application-admission/deadlines/",
+      "publisher": "University of Twente",
+      "authority": "official",
+      "authorityReason": "University-owned admissions page explaining nationality scope and complete-document submission; programme dates remain sourced from the BME factsheet.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "etf-program",
+      "institutionId": "etf",
+      "programIds": ["etf-si"],
+      "intakeIds": ["etf-si-intake"],
+      "title": "ETF SI programme",
+      "url": "https://www.etf.bg.ac.rs/sr-lat/studiranje/osnovne-akademske-studije/softversko-inzenjerstvo-si",
+      "publisher": "University of Belgrade — School of Electrical Engineering",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "etf-curriculum",
+      "institutionId": "etf",
+      "programIds": ["etf-si"],
+      "intakeIds": ["etf-si-intake"],
+      "title": "ETF curriculum 2024",
+      "url": "https://www.etf.bg.ac.rs/sr-lat/studiranje/osnovne-akademske-studije/softversko-inzenjerstvo-si/nastavni-plan-i-program-2024",
+      "publisher": "University of Belgrade — School of Electrical Engineering",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "etf-admission",
+      "institutionId": "etf",
+      "programIds": ["etf-si"],
+      "intakeIds": ["etf-si-intake"],
+      "title": "ETF undergraduate admission",
+      "url": "https://www.etf.bg.ac.rs/sr-lat/upis/osnovne-akademske-studije",
+      "publisher": "University of Belgrade — School of Electrical Engineering",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "etf-round",
+      "institutionId": "etf",
+      "programIds": ["etf-si"],
+      "intakeIds": ["etf-si-intake"],
+      "title": "ETF September 2026 admission notices",
+      "url": "https://prijemni.etf.bg.ac.rs/",
+      "publisher": "University of Belgrade — School of Electrical Engineering",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "etf-foreign",
+      "institutionId": "etf",
+      "programIds": ["etf-si"],
+      "intakeIds": ["etf-si-intake"],
+      "title": "ETF foreign-student enrolment",
+      "url": "https://prijemni.etf.bg.ac.rs/enrollment-of-student/",
+      "publisher": "University of Belgrade — School of Electrical Engineering",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "passau-program",
+      "institutionId": "passau",
+      "programIds": ["passau-cs"],
+      "intakeIds": ["passau-cs-intake"],
+      "title": "Passau B.Sc. Computer Science",
+      "url": "https://www.uni-passau.de/en/bsc-computer-science",
+      "publisher": "University of Passau",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "passau-language",
+      "institutionId": "passau",
+      "programIds": ["passau-cs"],
+      "intakeIds": ["passau-cs-intake"],
+      "title": "Passau German requirements by programme",
+      "url": "https://www.uni-passau.de/en/german-language-requirements",
+      "publisher": "University of Passau",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "passau-costs",
+      "institutionId": "passau",
+      "programIds": ["passau-cs"],
+      "intakeIds": ["passau-cs-intake"],
+      "title": "Passau no-tuition policy",
+      "url": "https://www.uni-passau.de/kosten-finanzierung",
+      "publisher": "University of Passau",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "passau-living",
+      "institutionId": "passau",
+      "programIds": ["passau-cs"],
+      "intakeIds": ["passau-cs-intake"],
+      "title": "Passau estimated monthly living costs",
+      "url": "https://www.uni-passau.de/en/costs-funding",
+      "publisher": "University of Passau",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "passau-fee",
+      "institutionId": "passau",
+      "programIds": ["passau-cs"],
+      "intakeIds": ["passau-cs-intake"],
+      "title": "Passau semester contribution 2026/27",
+      "url": "https://www.uni-passau.de/en/costs-funding/enrolment-fee",
+      "publisher": "University of Passau",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-clef-program",
+      "institutionId": "bologna",
+      "programIds": ["bologna-clef"],
+      "intakeIds": ["bologna-clef-intake"],
+      "title": "Bologna CLEF 2026/27 programme",
+      "url": "https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6646",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-clef-admission",
+      "institutionId": "bologna",
+      "programIds": ["bologna-clef"],
+      "intakeIds": ["bologna-clef-intake"],
+      "title": "Bologna CLEF admission",
+      "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-clef-call",
+      "institutionId": "bologna",
+      "programIds": ["bologna-clef"],
+      "intakeIds": ["bologna-clef-intake"],
+      "title": "CLEF call 2026/27, official English adapted translation; Italian prevails",
+      "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-clef/abstract-bando-etac_clef_2026-en.pdf/@@download/file/Abstract%20bando%20ETAC_CLEF_2026%20EN.pdf",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "tum-program",
+      "institutionId": "tum",
+      "programIds": ["tum-informatics"],
+      "intakeIds": ["tum-informatics-intake"],
+      "title": "TUM Informatics M.Sc. admission and fees",
+      "url": "https://www.tum.de/en/studies/degree-programs/detail/informatics-master-of-science-msc",
+      "publisher": "Technical University of Munich",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-im-program",
+      "institutionId": "bologna",
+      "programIds": ["bologna-im"],
+      "intakeIds": ["bologna-im-intake"],
+      "title": "Bologna International Management 2026/27",
+      "url": "https://www.unibo.it/en/study/second-cycle-degree/programme/2026/6803",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-im-admission",
+      "institutionId": "bologna",
+      "programIds": ["bologna-im"],
+      "intakeIds": ["bologna-im-intake"],
+      "title": "Bologna International Management admission",
+      "url": "https://corsi.unibo.it/2cycle/InternationalManagement/how-to-enrol",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-im-call",
+      "institutionId": "bologna",
+      "programIds": ["bologna-im"],
+      "intakeIds": ["bologna-im-intake"],
+      "title": "International Management call 2026/27, official English translation",
+      "url": "https://corsi.unibo.it/s/3394/p/en/enrolling-im/bando-im-2026-2027_-en.pdf/@@download/file/Bando%20IM%202026-2027_%20en.pdf",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-fees",
+      "institutionId": "bologna",
+      "programIds": ["bologna-clef", "bologna-im"],
+      "intakeIds": ["bologna-clef-intake", "bologna-im-intake"],
+      "title": "Bologna 2026/27 fixed and variable fee policy",
+      "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/fees-and-exemptions-amounts-deadlines",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-max-fees",
+      "institutionId": "bologna",
+      "programIds": ["bologna-clef", "bologna-im"],
+      "intakeIds": ["bologna-clef-intake", "bologna-im-intake"],
+      "title": "Bologna 2026/27 maximum contribution table; internal title overrides old search title",
+      "url": "https://www.unibo.it/en/attachments/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-phd-program",
+      "institutionId": "bologna",
+      "programIds": ["bologna-phd-cse"],
+      "intakeIds": ["bologna-phd-cse-intake"],
+      "title": "Bologna PhD cycle 42 programme and rounds",
+      "url": "https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/dottorati/2026-2027/computer-science-and-engineering",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "bologna-phd-round",
+      "institutionId": "bologna",
+      "programIds": ["bologna-phd-cse"],
+      "intakeIds": ["bologna-phd-cse-intake"],
+      "title": "Bologna PhD cycle 42 third-round specification",
+      "url": "https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/dottorati/2026-2027/allegati/42-3-computer-science-and-engineering-scheda-del-corso-di-dottorato/@@download/file/42_3_SchedaBando_ComputerScienceEngineering.pdf",
+      "publisher": "University of Bologna",
+      "authority": "official",
+      "authorityReason": "University-owned host; page linked within official programme/admissions/finance site. Authority limited to the stated programme and context; not candidate eligibility.",
+      "status": "verified",
+      "accessedOn": "2026-10-17",
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "facts": [
+    {
+      "id": "twente-psych-institution-name-main",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "institution_name",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "University of Twente"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: University of Twente. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-psych-name-main",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "name",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Psychology — English track (B.Sc.)"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Psychology — English track (B.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-psych-level-main",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "level",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "undergraduate"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: undergraduate. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-psych-country-main",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "country",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "NL"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: NL. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-psych-city-main",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "city",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Enschede"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Enschede. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-psych-academic-year-main",
+      "programId": "twente-psych",
+      "intakeId": "twente-psych-intake",
+      "predicate": "academic_year",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "2027/2028"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Academic-year scope 2027/2028."
+    },
+    {
+      "id": "twente-psych-language-main",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "language",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "list",
+        "items": ["English"]
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "English track only; Dutch track separate."
+    },
+    {
+      "id": "twente-psych-duration-main",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "duration",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "duration",
+        "amount": 3,
+        "unit": "years"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Three years."
+    },
+    {
+      "id": "twente-psych-intake-start-main",
+      "programId": "twente-psych",
+      "intakeId": "twente-psych-intake",
+      "predicate": "intake_start",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2027-09-01",
+        "time": null,
+        "timezone": null,
+        "note": "Exact date only for stated intake; not rolled to a future year."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "September 2027 English-track intake starts 1 September."
+    },
+    {
+      "id": "twente-psych-tuition-main",
+      "programId": "twente-psych",
+      "intakeId": "twente-psych-intake",
+      "predicate": "tuition",
+      "qualifier": "main",
+      "candidateCategory": "Non-EU/EEA applicants assessed as liable for the institutional fee; September 2027 entry",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 12652,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "2027/28 annual institutional fee only. Residence, prior-degree and exception conditions require institutional assessment; nationality alone does not select this rate. Later-year rates and full-degree total are not inferred."
+    },
+    {
+      "id": "twente-psych-tuition-statutory",
+      "programId": "twente-psych",
+      "intakeId": "twente-psych-intake",
+      "predicate": "tuition",
+      "qualifier": "statutory",
+      "candidateCategory": "Applicants individually meeting statutory-fee conditions; September 2027 entry",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 2771,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "2027/28 annual statutory fee only. Nationality or qualifying residence, previous comparable degree and applicable exceptions need manual assessment. EU/EEA citizenship alone is insufficient; no full-degree total inferred."
+    },
+    {
+      "id": "twente-psych-other-cost-main",
+      "programId": "twente-psych",
+      "intakeId": "twente-psych-intake",
+      "predicate": "other_cost",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Personal living, insurance, travel and application costs not fully verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Personal living, insurance, travel and application costs not fully verified."
+    },
+    {
+      "id": "twente-psych-application-requirement-diploma",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "diploma",
+      "candidateCategory": "English-track applicants with an international secondary-school diploma",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Foreign secondary qualification equivalent to Dutch VWO required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "VWO equivalence is assessed individually by the institution; country/diploma route and supporting documents require manual review. Not a universal restriction on Dutch VWO/HBO routes."
+    },
+    {
+      "id": "twente-psych-application-requirement-english",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "english",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "English-language requirement applies."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Requirement applies subject to prior-education route and applicable exemptions. Exact evidence and candidate-specific satisfaction remain unresolved/manual; English teaching is not evidence of proficiency."
+    },
+    {
+      "id": "twente-psych-application-deadline-main",
+      "programId": "twente-psych",
+      "intakeId": "twente-psych-intake",
+      "predicate": "application_deadline",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2027-01-15",
+        "time": "23:59",
+        "timezone": "CET",
+        "note": "Studielink deadline explicitly 23:59 CET; OSIRIS and essential documents due 15 January 2027, without an independently stated OSIRIS cutoff time. 30 November 2026 is a recommendation for international diplomas."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Studielink deadline explicitly 23:59 CET; OSIRIS and essential documents due 15 January 2027, without an independently stated OSIRIS cutoff time. 30 November 2026 is a recommendation for international diplomas."
+    },
+    {
+      "id": "twente-psych-institutional-requirement-main",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "institutional_requirement",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "English track has numerus-fixus selection, 250 places."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Selection is required; meeting educational requirements does not guarantee a place."
+    },
+    {
+      "id": "twente-psych-scholarship-main",
+      "programId": "twente-psych",
+      "intakeId": "twente-psych-intake",
+      "predicate": "scholarship",
+      "qualifier": "main",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "No confirmed programme-specific 2027 undergraduate funding award; do not transfer master scholarships.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "No confirmed programme-specific 2027 undergraduate funding award; do not transfer master scholarships."
+    },
+    {
+      "id": "twente-psych-application-requirement-mathematics",
+      "programId": "twente-psych",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "mathematics",
+      "candidateCategory": "English-track applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Mathematics requirement applies."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Requirement applies subject to prior-education route and applicable exemptions. Exact evidence and candidate-specific satisfaction remain unresolved/manual; English teaching is not evidence of proficiency."
+    },
+    {
+      "id": "twente-bme-institution-name-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "institution_name",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "University of Twente"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: University of Twente. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-name-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "name",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Biomedical Engineering (M.Sc.)"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Biomedical Engineering (M.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-level-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "level",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "master"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: master. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-country-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "country",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "NL"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: NL. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-city-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "city",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Enschede"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Enschede. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "twente-bme-academic-year-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "academic_year",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "2027/2028"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Academic-year scope 2027/2028."
+    },
+    {
+      "id": "twente-bme-language-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "language",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "list",
+        "items": ["English"]
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "English programme."
+    },
+    {
+      "id": "twente-bme-duration-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "duration",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "duration",
+        "amount": 2,
+        "unit": "years"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Two years."
+    },
+    {
+      "id": "twente-bme-intake-start-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "intake_start",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2027-09-01",
+        "time": null,
+        "timezone": null,
+        "note": "Exact date only for stated intake; not rolled to a future year."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Selected September 2027 intake; February deadlines are separate."
+    },
+    {
+      "id": "twente-bme-tuition-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "tuition",
+      "qualifier": "main",
+      "candidateCategory": "Non-EU/EEA applicants assigned the higher institutional fee; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 22320,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "EUR 22,320 is the 2027/28 annual higher-rate institutional tuition fee. It is not the two-year total or an individual fee decision; later-year rates can rise."
+    },
+    {
+      "id": "twente-bme-tuition-statutory",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "tuition",
+      "qualifier": "statutory",
+      "candidateCategory": "Applicants individually meeting statutory-fee conditions; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 2771,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "EUR 2,771 is the 2027/28 annual statutory fee. EU/EEA status usually applies but does not by itself prove individual eligibility; no two-year total is inferred."
+    },
+    {
+      "id": "twente-bme-other-cost-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "other_cost",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "A complete personalised total for living, insurance, travel, application fees, deposits and furnishings is not established.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "A complete personalised total for living, insurance, travel, application fees, deposits and furnishings is not established."
+    },
+    {
+      "id": "twente-bme-application-requirement-degree",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "degree",
+      "candidateCategory": "Applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Relevant Biomedical Engineering/Technology bachelor degree required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "The listed direct background is BSc Biomedical Engineering or Biomedical Technology. Final admissibility, relevant-course grades and any pre-master are assessed individually."
+    },
+    {
+      "id": "twente-bme-application-requirement-math",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "math",
+      "candidateCategory": "Applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Calculus and linear algebra background required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Subject-level transcript check still needed."
+    },
+    {
+      "id": "twente-bme-application-requirement-bet",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "bet",
+      "candidateCategory": "Bioengineering Technologies specialisation applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Cell biology and biochemistry background for Bioengineering Technologies."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Specialisation-specific requirement; not a blanket requirement for every specialisation."
+    },
+    {
+      "id": "twente-bme-application-deadline-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "application_deadline",
+      "qualifier": "main",
+      "candidateCategory": "Non-EU/EEA September 2027 applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2027-05-01",
+        "time": null,
+        "timezone": null,
+        "note": "Programme factsheet date for September 2027. Exact cutoff time and timezone are not stated; all requested documents must be submitted before the applicable deadline."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Programme factsheet date for September 2027. Exact cutoff time and timezone are not stated; all requested documents must be submitted before the applicable deadline."
+    },
+    {
+      "id": "twente-bme-application-deadline-eu",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "application_deadline",
+      "qualifier": "eu",
+      "candidateCategory": "EU/EEA September 2027 applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2027-07-01",
+        "time": null,
+        "timezone": null,
+        "note": "Programme factsheet date for September 2027. Exact cutoff time and timezone are not stated; all requested documents must be submitted before the applicable deadline."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Programme factsheet date for September 2027. Exact cutoff time and timezone are not stated; all requested documents must be submitted before the applicable deadline."
+    },
+    {
+      "id": "twente-bme-institutional-requirement-main",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "institutional_requirement",
+      "qualifier": "main",
+      "candidateCategory": "Applicants with an international degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "English-language evidence must be complete before application deadline."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "English proof must meet the September 2027 test, score, age and exemption rules before the deadline. The institution verifies evidence; no extra waiver or automatic exemption is inferred."
+    },
+    {
+      "id": "twente-bme-scholarship-main",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "scholarship",
+      "qualifier": "main",
+      "candidateCategory": "Biomedical Engineering applicants; September 2027 intake",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "No specific scholarship is bound to this programme and applicant with verified 2027 eligibility, award amount and applicable deadline.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "The university lists possible master's funding, but admission and scholarship applications are separate and no award is guaranteed."
+    },
+    {
+      "id": "twente-bme-other-cost-living-estimate",
+      "programId": "twente-bme",
+      "intakeId": "twente-bme-intake",
+      "predicate": "other_cost",
+      "qualifier": "monthly-living-estimate",
+      "candidateCategory": "Illustrative student budget; September 2027 intake",
+      "nature": "estimate",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 1311,
+        "currency": "EUR",
+        "period": "month",
+        "basis": "estimate",
+        "note": "Published average monthly living estimate excluding tuition; not a quote, minimum or complete personalised budget."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "The official page attributes the estimate to Nibud and warns that actual costs vary. Deposits, furnishings, travel, application fees and tuition are not made complete by this figure."
+    },
+    {
+      "id": "twente-bme-application-requirement-cgpa",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "cgpa",
+      "candidateCategory": "Applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "CGPA of at least 75% of the maximum score, or the country equivalent."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Meeting the minimum does not guarantee admission; the committee also reviews relevant courses and their grades. Country equivalence remains an institutional assessment."
+    },
+    {
+      "id": "twente-bme-application-requirement-documents",
+      "programId": "twente-bme",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "documents",
+      "candidateCategory": "Applicants with an international bachelor's degree; September 2027 intake",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Diploma copy, transcript, motivation letter up to 1,000 words and résumé are required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "The application may start before graduation, but completion before the academic year remains required. Document acceptance and completeness are assessed by the institution."
+    },
+    {
+      "id": "etf-si-institution-name-main",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "institution_name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "University of Belgrade — School of Electrical Engineering"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: University of Belgrade — School of Electrical Engineering. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "etf-si-name-main",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Softversko inženjerstvo"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Softversko inženjerstvo. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "etf-si-level-main",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "level",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "undergraduate"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: undergraduate. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "etf-si-country-main",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "country",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "RS"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: RS. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "etf-si-city-main",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "city",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Belgrade"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Belgrade. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "etf-si-academic-year-main",
+      "programId": "etf-si",
+      "intakeId": "etf-si-intake",
+      "predicate": "academic_year",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "2026/2027"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Academic-year scope 2026/2027."
+    },
+    {
+      "id": "passau-cs-institution-name-main",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "institution_name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "University of Passau"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: University of Passau. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "passau-cs-name-main",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Computer Science (B.Sc.)"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Computer Science (B.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "passau-cs-level-main",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "level",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "undergraduate"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: undergraduate. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "passau-cs-country-main",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "country",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "DE"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: DE. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "passau-cs-city-main",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "city",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Passau"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Passau. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "passau-cs-academic-year-main",
+      "programId": "passau-cs",
+      "intakeId": "passau-cs-intake",
+      "predicate": "academic_year",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Source is general policy, not confirmation of one academic year.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Source is general policy, not confirmation of one academic year."
+    },
+    {
+      "id": "bologna-clef-institution-name-main",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "institution_name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "University of Bologna"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: University of Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-clef-name-main",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Economics and Finance"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Economics and Finance. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-clef-level-main",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "level",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "undergraduate"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: undergraduate. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-clef-country-main",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "country",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "IT"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: IT. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-clef-city-main",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "city",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Bologna"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-clef-academic-year-main",
+      "programId": "bologna-clef",
+      "intakeId": "bologna-clef-intake",
+      "predicate": "academic_year",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "2026/2027"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Academic-year scope 2026/2027."
+    },
+    {
+      "id": "tum-informatics-institution-name-main",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "institution_name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Technical University of Munich"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Technical University of Munich. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "tum-informatics-name-main",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Informatics (M.Sc.)"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Informatics (M.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "tum-informatics-level-main",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "level",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "master"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: master. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "tum-informatics-country-main",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "country",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "DE"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: DE. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "tum-informatics-city-main",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "city",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Garching"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Garching. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "tum-informatics-academic-year-main",
+      "programId": "tum-informatics",
+      "intakeId": "tum-informatics-intake",
+      "predicate": "academic_year",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Source is general policy, not confirmation of one academic year.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Source is general policy, not confirmation of one academic year."
+    },
+    {
+      "id": "bologna-im-institution-name-main",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "institution_name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "University of Bologna"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: University of Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-im-name-main",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "International Management"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: International Management. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-im-level-main",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "level",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "master"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: master. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-im-country-main",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "country",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "IT"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: IT. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-im-city-main",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "city",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Bologna"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-im-academic-year-main",
+      "programId": "bologna-im",
+      "intakeId": "bologna-im-intake",
+      "predicate": "academic_year",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "2026/2027"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Academic-year scope 2026/2027."
+    },
+    {
+      "id": "bologna-phd-cse-institution-name-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "institution_name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "University of Bologna"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: University of Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-phd-cse-name-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "name",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Computer Science and Engineering"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Computer Science and Engineering. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-phd-cse-level-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "level",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "phd"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: phd. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-phd-cse-country-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "country",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "IT"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: IT. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-phd-cse-city-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "city",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Bologna"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Normalized identity: Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization."
+    },
+    {
+      "id": "bologna-phd-cse-academic-year-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": "bologna-phd-cse-intake",
+      "predicate": "academic_year",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "2026/2027"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Academic-year scope 2026/2027."
+    },
+    {
+      "id": "etf-si-language-main",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "language",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "list",
+        "items": ["Serbian"]
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Official foreign-student page explicitly states all School BSc programmes are Serbian-only."
+    },
+    {
+      "id": "etf-si-duration-main",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "duration",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "duration",
+        "amount": 8,
+        "unit": "semesters"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Eight semesters listed in the curriculum."
+    },
+    {
+      "id": "etf-si-intake-start-main",
+      "programId": "etf-si",
+      "intakeId": "etf-si-intake",
+      "predicate": "intake_start",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Exact teaching start not confirmed from reviewed sources.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Exact teaching start not confirmed from reviewed sources."
+    },
+    {
+      "id": "etf-si-tuition-main",
+      "programId": "etf-si",
+      "intakeId": "etf-si-intake",
+      "predicate": "tuition",
+      "qualifier": "main",
+      "candidateCategory": "Serbian self-financing first-year entrants 2026/27",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 282000,
+        "currency": "RSD",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Third-round first-year tuition, 282000 RSD; does not imply this rate for all years or budget-funded students."
+    },
+    {
+      "id": "etf-si-tuition-foreign",
+      "programId": "etf-si",
+      "intakeId": "etf-si-intake",
+      "predicate": "tuition",
+      "qualifier": "foreign",
+      "candidateCategory": "Foreign self-financing first-year entrants 2026/27",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 3000,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "3000 EUR quoted; payable as RSD equivalent at the enrolment-day central-bank rate."
+    },
+    {
+      "id": "etf-si-other-cost-admin",
+      "programId": "etf-si",
+      "intakeId": "etf-si-intake",
+      "predicate": "other_cost",
+      "qualifier": "admin",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 10000,
+        "currency": "RSD",
+        "period": "one_time",
+        "basis": "fee",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "First-enrolment administration fee, excludes separate university charges and living expenses."
+    },
+    {
+      "id": "etf-si-other-cost-living",
+      "programId": "etf-si",
+      "intakeId": "etf-si-intake",
+      "predicate": "other_cost",
+      "qualifier": "living",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Housing, food, insurance and full additional cost total not verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Housing, food, insurance and full additional cost total not verified."
+    },
+    {
+      "id": "etf-si-application-requirement-qualification",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "qualification",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Four-year secondary-school completion required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Four-year secondary qualification; individual foreign-diploma recognition unresolved."
+    },
+    {
+      "id": "etf-si-application-requirement-exam",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "exam",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Mathematics entrance examination for SI."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "SI uses mathematics admission examination; physics-only pathway must not be transferred from ER."
+    },
+    {
+      "id": "etf-si-application-deadline-main",
+      "programId": "etf-si",
+      "intakeId": "etf-si-intake",
+      "predicate": "application_deadline",
+      "qualifier": "main",
+      "candidateCategory": "Third-round applicants for remaining SI self-financing places",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2026-09-17",
+        "time": "12:00",
+        "timezone": null,
+        "note": "Exact date only for stated intake; not rolled to a future year."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Third round closed 17 September 2026 at noon. Local timezone is not explicitly confirmed; retain null."
+    },
+    {
+      "id": "etf-si-institutional-requirement-language-certificate",
+      "programId": "etf-si",
+      "intakeId": null,
+      "predicate": "institutional_requirement",
+      "qualifier": "language-certificate",
+      "candidateCategory": "Foreign entrants, exceptions for stated prior education/citizenship categories",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Foreign entrants need Serbian-language evidence, subject to listed exceptions."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Requirement has exceptions; no universal nationality assumption."
+    },
+    {
+      "id": "etf-si-scholarship-main",
+      "programId": "etf-si",
+      "intakeId": "etf-si-intake",
+      "predicate": "scholarship",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "No programme-linked scholarship award or current call confirmed; budget status is not a scholarship promise.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "No programme-linked scholarship award or current call confirmed; budget status is not a scholarship promise."
+    },
+    {
+      "id": "passau-cs-language-main",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "language",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "list",
+        "items": ["German"]
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Programme taught in German."
+    },
+    {
+      "id": "passau-cs-duration-main",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "duration",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "duration",
+        "amount": 6,
+        "unit": "semesters"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Six semesters."
+    },
+    {
+      "id": "passau-cs-credits-main",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "credits",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "number",
+        "amount": 180,
+        "unit": "ECTS"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "180 ECTS."
+    },
+    {
+      "id": "passau-cs-intake-start-main",
+      "programId": "passau-cs",
+      "intakeId": "passau-cs-intake",
+      "predicate": "intake_start",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "April/October are recurring starts; no exact future year-bound start date verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "April/October are recurring starts; no exact future year-bound start date verified."
+    },
+    {
+      "id": "passau-cs-tuition-main",
+      "programId": "passau-cs",
+      "intakeId": "passau-cs-intake",
+      "predicate": "tuition",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 0,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Current university policy charges no tuition. Future policy/year remains unconfirmed; compulsory semester fee is separate."
+    },
+    {
+      "id": "passau-cs-other-cost-semester-2026-winter",
+      "programId": "passau-cs",
+      "intakeId": "passau-cs-intake",
+      "predicate": "other_cost",
+      "qualifier": "semester-2026-winter",
+      "candidateCategory": "Enrolled students in winter semester 2026/27",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 126.9,
+        "currency": "EUR",
+        "period": "semester",
+        "basis": "fee",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "126.90 EUR winter 2026/27 contribution only; not a verified future-semester rate."
+    },
+    {
+      "id": "passau-cs-other-cost-housing-lower",
+      "programId": "passau-cs",
+      "intakeId": "passau-cs-intake",
+      "predicate": "other_cost",
+      "qualifier": "housing-lower",
+      "candidateCategory": "all applicants",
+      "nature": "estimate",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 300,
+        "currency": "EUR",
+        "period": "month",
+        "basis": "estimate",
+        "note": "Lower endpoint of 300–550 EUR monthly housing guideline; not a total or guaranteed quote."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "University housing guideline is 300–550 EUR/month. Store lower endpoint with explicit range note; never use it as total living cost."
+    },
+    {
+      "id": "passau-cs-other-cost-total",
+      "programId": "passau-cs",
+      "intakeId": "passau-cs-intake",
+      "predicate": "other_cost",
+      "qualifier": "total",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Candidate-specific full living total, deposits, travel and insurance not verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Candidate-specific full living total, deposits, travel and insurance not verified."
+    },
+    {
+      "id": "passau-cs-application-requirement-qualification",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "qualification",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Recognised higher-education entrance qualification required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Admission route depends on qualification country; not automatic recognition of a Serbian diploma."
+    },
+    {
+      "id": "passau-cs-application-requirement-german",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "german",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "German B2 at application; C1/DSH-2 at enrolment."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Separate application and enrolment thresholds; accepted certificates require further review."
+    },
+    {
+      "id": "passau-cs-application-deadline-main",
+      "programId": "passau-cs",
+      "intakeId": "passau-cs-intake",
+      "predicate": "application_deadline",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Exact deadline by nationality, application route and future semester not verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Exact deadline by nationality, application route and future semester not verified."
+    },
+    {
+      "id": "passau-cs-institutional-requirement-main",
+      "programId": "passau-cs",
+      "intakeId": null,
+      "predicate": "institutional_requirement",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Accepted language certificates must have been issued within the last two years."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Language-certificate validity policy applies with programme-specific accepted certificates."
+    },
+    {
+      "id": "passau-cs-scholarship-main",
+      "programId": "passau-cs",
+      "intakeId": "passau-cs-intake",
+      "predicate": "scholarship",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Funding award and eligibility for this programme/intake not verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Funding award and eligibility for this programme/intake not verified."
+    },
+    {
+      "id": "bologna-clef-language-main",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "language",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "list",
+        "items": ["English"]
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "English teaching language."
+    },
+    {
+      "id": "bologna-clef-duration-main",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "duration",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "duration",
+        "amount": 3,
+        "unit": "years"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Three years."
+    },
+    {
+      "id": "bologna-clef-credits-main",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "credits",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "number",
+        "amount": 180,
+        "unit": "ECTS"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "180 credits."
+    },
+    {
+      "id": "bologna-clef-intake-start-main",
+      "programId": "bologna-clef",
+      "intakeId": "bologna-clef-intake",
+      "predicate": "intake_start",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Exact first teaching day not confirmed; academic year is 2026/27, not 2027/28.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Exact first teaching day not confirmed; academic year is 2026/27, not 2027/28."
+    },
+    {
+      "id": "bologna-clef-tuition-main",
+      "programId": "bologna-clef",
+      "intakeId": "bologna-clef-intake",
+      "predicate": "tuition",
+      "qualifier": "main",
+      "candidateCategory": "2026/27 first-cycle students paying maximum variable contribution",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 2040,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Maximum variable contribution for ordinary first-cycle programmes; excludes 157.04 EUR fixed component; income/exemption policies may reduce it."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Maximum variable contribution 2040 EUR. Code 6646 is not in increased-fee exceptions. Candidate actual bill unknown."
+    },
+    {
+      "id": "bologna-clef-other-cost-fixed-fee",
+      "programId": "bologna-clef",
+      "intakeId": "bologna-clef-intake",
+      "predicate": "other_cost",
+      "qualifier": "fixed-fee",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 157.04,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "fee",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Fixed component is separate from variable contribution; not the complete annual tuition."
+    },
+    {
+      "id": "bologna-clef-other-cost-living",
+      "programId": "bologna-clef",
+      "intakeId": "bologna-clef-intake",
+      "predicate": "other_cost",
+      "qualifier": "living",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Housing, travel, insurance and personalised full cost not verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Housing, travel, insurance and personalised full cost not verified."
+    },
+    {
+      "id": "bologna-clef-application-requirement-qualification",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "qualification",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Foreign secondary qualification after at least 12 years of schooling, with required eligibility assessment."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Equivalence and any supplementary qualification evidence need individual assessment."
+    },
+    {
+      "id": "bologna-clef-application-requirement-sat",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "sat",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Digital SAT selection and official score transmission required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "2026/27 SAT selection only. Official English abstract says Italian original prevails."
+    },
+    {
+      "id": "bologna-clef-application-deadline-main",
+      "programId": "bologna-clef",
+      "intakeId": "bologna-clef-intake",
+      "predicate": "application_deadline",
+      "qualifier": "main",
+      "candidateCategory": "First-intake eligible categories including non-EU residents abroad",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2026-05-04",
+        "time": "13:00",
+        "timezone": null,
+        "note": "Exact date only for stated intake; not rolled to a future year."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "First round closed 4 May 2026. Later rounds have different quotas; no date inferred for 2027."
+    },
+    {
+      "id": "bologna-clef-institutional-requirement-main",
+      "programId": "bologna-clef",
+      "intakeId": null,
+      "predicate": "institutional_requirement",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Limited admission, 130 places in 2026/27."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Year-specific capacity; older 120-place pages are a different year, not evidence for this intake."
+    },
+    {
+      "id": "bologna-clef-scholarship-main",
+      "programId": "bologna-clef",
+      "intakeId": "bologna-clef-intake",
+      "predicate": "scholarship",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Programme/candidate-specific award, amount and active deadline not verified; general ER.GO support is not an award.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Programme/candidate-specific award, amount and active deadline not verified; general ER.GO support is not an award."
+    },
+    {
+      "id": "tum-informatics-language-main",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "language",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "list",
+        "items": ["Usually English"]
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Programme describes instruction as usually English; do not imply all modules are English."
+    },
+    {
+      "id": "tum-informatics-duration-main",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "duration",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "duration",
+        "amount": 4,
+        "unit": "semesters"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Four semesters."
+    },
+    {
+      "id": "tum-informatics-credits-main",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "credits",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "number",
+        "amount": 120,
+        "unit": "ECTS"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "120 ECTS."
+    },
+    {
+      "id": "tum-informatics-intake-start-main",
+      "programId": "tum-informatics",
+      "intakeId": "tum-informatics-intake",
+      "predicate": "intake_start",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Winter/summer cycles known; exact future teaching start not verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Winter/summer cycles known; exact future teaching start not verified."
+    },
+    {
+      "id": "tum-informatics-tuition-main",
+      "programId": "tum-informatics",
+      "intakeId": "tum-informatics-intake",
+      "predicate": "tuition",
+      "qualifier": "main",
+      "candidateCategory": "Third-country international students subject to tuition; exemptions possible",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 6000,
+        "currency": "EUR",
+        "period": "semester",
+        "basis": "tuition",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "6000 EUR per semester, not per year; applicability requires individual exemption assessment."
+    },
+    {
+      "id": "tum-informatics-other-cost-main",
+      "programId": "tum-informatics",
+      "intakeId": "tum-informatics-intake",
+      "predicate": "other_cost",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Year-bound student fee, housing and complete living cost not verified; page fee cannot be assigned to unconfirmed future intake.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Year-bound student fee, housing and complete living cost not verified; page fee cannot be assigned to unconfirmed future intake."
+    },
+    {
+      "id": "tum-informatics-application-requirement-degree",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "degree",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Recognised first degree required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Subject equivalence and detailed curriculum criteria require institutional assessment."
+    },
+    {
+      "id": "tum-informatics-institutional-requirement-main",
+      "programId": "tum-informatics",
+      "intakeId": null,
+      "predicate": "institutional_requirement",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Two-stage aptitude assessment determines admission."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Assessment can lead to admission, rejection or interview. No admission probability inferred."
+    },
+    {
+      "id": "tum-informatics-application-deadline-main",
+      "programId": "tum-informatics",
+      "intakeId": "tum-informatics-intake",
+      "predicate": "application_deadline",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Recurring windows February–May and October–November do not establish an exact deadline for a specific future year.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Recurring windows February–May and October–November do not establish an exact deadline for a specific future year."
+    },
+    {
+      "id": "tum-informatics-scholarship-main",
+      "programId": "tum-informatics",
+      "intakeId": "tum-informatics-intake",
+      "predicate": "scholarship",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "No applicant-specific scholarship/tuition waiver confirmed; fee exemptions must be separately verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "No applicant-specific scholarship/tuition waiver confirmed; fee exemptions must be separately verified."
+    },
+    {
+      "id": "bologna-im-language-main",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "language",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "list",
+        "items": ["English"]
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "English teaching language."
+    },
+    {
+      "id": "bologna-im-duration-main",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "duration",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "duration",
+        "amount": 2,
+        "unit": "years"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Two years."
+    },
+    {
+      "id": "bologna-im-credits-main",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "credits",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "number",
+        "amount": 120,
+        "unit": "ECTS"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "120 credits."
+    },
+    {
+      "id": "bologna-im-intake-start-main",
+      "programId": "bologna-im",
+      "intakeId": "bologna-im-intake",
+      "predicate": "intake_start",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Exact teaching start not confirmed; no 2027 intake confirmed.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Exact teaching start not confirmed; no 2027 intake confirmed."
+    },
+    {
+      "id": "bologna-im-tuition-main",
+      "programId": "bologna-im",
+      "intakeId": "bologna-im-intake",
+      "predicate": "tuition",
+      "qualifier": "main",
+      "candidateCategory": "2026/27 students paying full maximum variable contribution",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 4080,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "tuition",
+        "note": "Maximum variable contribution for programme code 6803; excludes 157.04 EUR fixed component. Actual amount depends on economic situation/exemptions."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "4080 EUR maximum variable contribution; candidate bill unknown."
+    },
+    {
+      "id": "bologna-im-other-cost-fixed-fee",
+      "programId": "bologna-im",
+      "intakeId": "bologna-im-intake",
+      "predicate": "other_cost",
+      "qualifier": "fixed-fee",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 157.04,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "fee",
+        "note": "Stated rate only; not total cost or guaranteed eligibility."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Fixed component separate from income-dependent variable contribution."
+    },
+    {
+      "id": "bologna-im-other-cost-living",
+      "programId": "bologna-im",
+      "intakeId": "bologna-im-intake",
+      "predicate": "other_cost",
+      "qualifier": "living",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Housing, insurance, travel and personalised complete cost not verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Housing, insurance, travel and personalised complete cost not verified."
+    },
+    {
+      "id": "bologna-im-application-requirement-degree",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "degree",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Eligible first-cycle qualification or assessed foreign equivalent."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Listed degree classes or alternative 36-credit subject route; commission evaluates equivalence. Detailed module mapping unresolved."
+    },
+    {
+      "id": "bologna-im-application-requirement-english",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "english",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "English B2 required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Accepted evidence and candidate certificate validity need assessment."
+    },
+    {
+      "id": "bologna-im-application-deadline-main",
+      "programId": "bologna-im",
+      "intakeId": "bologna-im-intake",
+      "predicate": "application_deadline",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2026-04-08",
+        "time": "13:00",
+        "timezone": null,
+        "note": "Exact date only for stated intake; not rolled to a future year."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Selection closed 8 April 2026; degree-completion deadline is a separate requirement, not application deadline."
+    },
+    {
+      "id": "bologna-im-institutional-requirement-main",
+      "programId": "bologna-im",
+      "intakeId": null,
+      "predicate": "institutional_requirement",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Competitive selection with 70 places in 2026/27."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Limited entry; application conditions do not guarantee admission."
+    },
+    {
+      "id": "bologna-im-scholarship-main",
+      "programId": "bologna-im",
+      "intakeId": "bologna-im-intake",
+      "predicate": "scholarship",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "No current programme-specific scholarship award, amount or candidate eligibility confirmed.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "No current programme-specific scholarship award, amount or candidate eligibility confirmed."
+    },
+    {
+      "id": "bologna-phd-cse-language-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "language",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "list",
+        "items": ["English"]
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "English programme; admission oral examination may be in Italian or English."
+    },
+    {
+      "id": "bologna-phd-cse-duration-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "duration",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "duration",
+        "amount": 3,
+        "unit": "years"
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Three years."
+    },
+    {
+      "id": "bologna-phd-cse-intake-start-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": "bologna-phd-cse-intake",
+      "predicate": "intake_start",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2026-11-01",
+        "time": null,
+        "timezone": null,
+        "note": "Exact date only for stated intake; not rolled to a future year."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Cycle 42 activity starts 1 November 2026."
+    },
+    {
+      "id": "bologna-phd-cse-tuition-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": "bologna-phd-cse-intake",
+      "predicate": "tuition",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "PhD annual enrolment charges/exemptions not verified; do not apply degree-program fee table to PhD.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "PhD annual enrolment charges/exemptions not verified; do not apply degree-program fee table to PhD."
+    },
+    {
+      "id": "bologna-phd-cse-other-cost-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": "bologna-phd-cse-intake",
+      "predicate": "other_cost",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Full living, travel, insurance and personal net funding costs not verified.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Full living, travel, insurance and personal net funding costs not verified."
+    },
+    {
+      "id": "bologna-phd-cse-application-requirement-selection",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "selection",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Qualification/research-project assessment and oral examination required."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Round-specific selection; official templates and mandatory documents must be checked in full call."
+    },
+    {
+      "id": "bologna-phd-cse-application-requirement-degree-equivalence",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "application_requirement",
+      "qualifier": "degree-equivalence",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "unknown",
+      "value": null,
+      "unknownReason": "Exact access-degree equivalence and degree-completion deadline require review of general call.",
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Exact access-degree equivalence and degree-completion deadline require review of general call."
+    },
+    {
+      "id": "bologna-phd-cse-application-deadline-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": "bologna-phd-cse-intake",
+      "predicate": "application_deadline",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "date",
+        "date": "2026-10-08",
+        "time": "23:59",
+        "timezone": null,
+        "note": "Exact date only for stated intake; not rolled to a future year."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "8 October 2026 at 23:59 as stated; exact timezone not confirmed, stored null. Not a 2027 deadline."
+    },
+    {
+      "id": "bologna-phd-cse-scholarship-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": "bologna-phd-cse-intake",
+      "predicate": "scholarship",
+      "qualifier": "main",
+      "candidateCategory": "Successful recipients of one of the advertised funded positions",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "money",
+        "amount": 18341.04,
+        "currency": "EUR",
+        "period": "year",
+        "basis": "scholarship_gross",
+        "note": "Gross annual scholarship for funded positions in cycle 42 third round; conditional on competitive award."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "18341.04 EUR gross/year; do not compare directly with generic monthly net illustration."
+    },
+    {
+      "id": "bologna-phd-cse-institutional-requirement-main",
+      "programId": "bologna-phd-cse",
+      "intakeId": null,
+      "predicate": "institutional_requirement",
+      "qualifier": "main",
+      "candidateCategory": "all applicants",
+      "nature": "institutional",
+      "status": "verified",
+      "value": {
+        "kind": "text",
+        "text": "Three funded positions have specific research topics."
+      },
+      "unknownReason": null,
+      "checkedOn": "2026-10-17",
+      "checkedBy": "agent",
+      "note": "Specific third-round positions funded by ACN, Ferrari and CNR ISTC; no unrestricted scholarship or future position promised."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-13",
+      "factId": "twente-psych-institution-name-main",
+      "sourceId": "twente-psych-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: University of Twente. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-14",
+      "factId": "twente-psych-name-main",
+      "sourceId": "twente-psych-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Psychology — English track (B.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-15",
+      "factId": "twente-psych-level-main",
+      "sourceId": "twente-psych-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: undergraduate. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-16",
+      "factId": "twente-psych-country-main",
+      "sourceId": "twente-psych-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: NL. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-17",
+      "factId": "twente-psych-city-main",
+      "sourceId": "twente-psych-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Enschede. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-18",
+      "factId": "twente-psych-academic-year-main",
+      "sourceId": "twente-psych-fees",
+      "relation": "supports",
+      "locator": "2027-2028 (Sep-Aug) annual fee table",
+      "paraphrase": "Academic-year label 2027-2028 is explicit in the fee table; the programme start is separately stated as 1 September 2027.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-67",
+      "factId": "twente-psych-language-main",
+      "sourceId": "twente-psych-program",
+      "relation": "supports",
+      "locator": "English-track programme facts",
+      "paraphrase": "English track only; Dutch track separate.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-68",
+      "factId": "twente-psych-duration-main",
+      "sourceId": "twente-psych-program",
+      "relation": "supports",
+      "locator": "Programme facts, duration",
+      "paraphrase": "Three years.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-69",
+      "factId": "twente-psych-intake-start-main",
+      "sourceId": "twente-psych-program",
+      "relation": "supports",
+      "locator": "2027/28 start date",
+      "paraphrase": "September 2027 English-track intake starts 1 September.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-70",
+      "factId": "twente-psych-tuition-main",
+      "sourceId": "twente-psych-fees",
+      "relation": "supports",
+      "locator": "Tuition fee table, non-EU/EEA 2027–2028",
+      "paraphrase": "2027/28 annual institutional fee; no full-degree cost inferred.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-71",
+      "factId": "twente-psych-tuition-statutory",
+      "sourceId": "twente-psych-fees",
+      "relation": "supports",
+      "locator": "Tuition fee table, EU/EEA 2027–2028",
+      "paraphrase": "Statutory fee is conditional; EU citizenship alone does not prove eligibility.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-72",
+      "factId": "twente-psych-application-requirement-diploma",
+      "sourceId": "twente-psych-admission",
+      "relation": "supports",
+      "locator": "Admission requirements > International diploma",
+      "paraphrase": "International secondary diplomas must be equivalent to Dutch VWO; the institution determines individual eligibility. Other prior-education routes are listed separately.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-73",
+      "factId": "twente-psych-application-requirement-english",
+      "sourceId": "twente-psych-admission",
+      "relation": "supports",
+      "locator": "Mathematics and English requirements",
+      "paraphrase": "English-language requirement applies; accepted evidence depends on prior education.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-74",
+      "factId": "twente-psych-application-deadline-main",
+      "sourceId": "twente-psych-selection",
+      "relation": "supports",
+      "locator": "Apply for the English track: steps 1 (Studielink) and 2 (OSIRIS)",
+      "paraphrase": "Studielink closes 15 January 2027 at 23:59 CET; OSIRIS and essential uploads must be completed by 15 January. International diplomas: 30 November 2026 is recommended, not the final deadline.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-75",
+      "factId": "twente-psych-institutional-requirement-main",
+      "sourceId": "twente-psych-selection",
+      "relation": "supports",
+      "locator": "English programme, numerus fixus",
+      "paraphrase": "Selection is required; meeting educational requirements does not guarantee a place.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-mathematics",
+      "factId": "twente-psych-application-requirement-mathematics",
+      "sourceId": "twente-psych-admission",
+      "relation": "supports",
+      "locator": "Mathematics and English requirements",
+      "paraphrase": "Mathematics background must meet programme requirements.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "psych-fee-conditions-main-20261017",
+      "factId": "twente-psych-tuition-main",
+      "sourceId": "twente-psych-fee-conditions",
+      "relation": "context",
+      "locator": "Most frequently Questions about tuition fees > What kind of tuition fees do I need to pay?",
+      "paraphrase": "Student Services lists nationality/qualifying residence, prior comparable degree and exceptions. Classification requires manual assessment; this context does not assign a rate to a person.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "psych-fee-conditions-statutory-20261017",
+      "factId": "twente-psych-tuition-statutory",
+      "sourceId": "twente-psych-fee-conditions",
+      "relation": "context",
+      "locator": "Most frequently Questions about tuition fees > What kind of tuition fees do I need to pay?",
+      "paraphrase": "Student Services lists nationality/qualifying residence, prior comparable degree and exceptions. Classification requires manual assessment; this context does not assign a rate to a person.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-31",
+      "factId": "twente-bme-institution-name-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: University of Twente. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-32",
+      "factId": "twente-bme-name-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Biomedical Engineering (M.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-33",
+      "factId": "twente-bme-level-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: master. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-34",
+      "factId": "twente-bme-country-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: NL. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-35",
+      "factId": "twente-bme-city-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Enschede. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-36",
+      "factId": "twente-bme-academic-year-main",
+      "sourceId": "twente-master-fees",
+      "relation": "supports",
+      "locator": "September intake fee table, 2027-2028 (Sep-Aug)",
+      "paraphrase": "The fee authority explicitly labels the September 2027 academic year as 2027-2028; the programme start is separately confirmed as 1 September 2027.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-93",
+      "factId": "twente-bme-language-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Factsheet, language",
+      "paraphrase": "English programme.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-94",
+      "factId": "twente-bme-duration-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Factsheet, duration",
+      "paraphrase": "Two years.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-95",
+      "factId": "twente-bme-intake-start-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Start and application deadline table, September 2027",
+      "paraphrase": "Selected September 2027 intake; February deadlines are separate.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-96",
+      "factId": "twente-bme-tuition-main",
+      "sourceId": "twente-master-fees",
+      "relation": "supports",
+      "locator": "Higher-rate programmes includes BME; September 2027/28 annual institutional-fee table",
+      "paraphrase": "22320 EUR per year, not full two-year cost. Factsheet wording full period is clarified by annual-fee authority.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-97",
+      "factId": "twente-bme-tuition-statutory",
+      "sourceId": "twente-master-fees",
+      "relation": "supports",
+      "locator": "Statutory full-time September 2027/28 table",
+      "paraphrase": "2771 EUR per year conditional on statutory eligibility; not all EU students qualify.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-98",
+      "factId": "twente-bme-application-requirement-degree",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "International university-degree requirements",
+      "paraphrase": "Individual degree assessment and possible pre-master differ by case.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-99",
+      "factId": "twente-bme-application-requirement-math",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Subject knowledge requirements",
+      "paraphrase": "Subject-level transcript check still needed.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-100",
+      "factId": "twente-bme-application-requirement-bet",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Specific knowledge, Bioengineering Technologies",
+      "paraphrase": "Specialisation-specific requirement; not a blanket requirement for every specialisation.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-101",
+      "factId": "twente-bme-application-deadline-main",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Deadline table, September 2027 non-EU",
+      "paraphrase": "Non-EU September deadline; exact cutoff time not confirmed.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-102",
+      "factId": "twente-bme-application-deadline-eu",
+      "sourceId": "twente-bme-program",
+      "relation": "supports",
+      "locator": "Deadline table, September 2027 EU",
+      "paraphrase": "EU September deadline; exact cutoff time not confirmed.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-103",
+      "factId": "twente-bme-institutional-requirement-main",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Language skills; September 2027 and onwards; English exemptions",
+      "paraphrase": "English evidence must be satisfied before the application deadline. Accepted tests, minimum scores, validity and formal exemptions are stated for September 2027 and remain subject to institutional verification.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-application-deadline-main-policy-20261017",
+      "factId": "twente-bme-application-deadline-main",
+      "sourceId": "twente-master-deadline-policy",
+      "relation": "context",
+      "locator": "Nationality basis and complete-document submission",
+      "paraphrase": "Nationality determines the applicable deadline and all requested documents must be uploaded and submitted before it. The page does not add a cutoff time or replace the programme-specific date.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-application-deadline-eu-policy-20261017",
+      "factId": "twente-bme-application-deadline-eu",
+      "sourceId": "twente-master-deadline-policy",
+      "relation": "context",
+      "locator": "Nationality basis and complete-document submission",
+      "paraphrase": "Nationality determines the applicable deadline and all requested documents must be uploaded and submitted before it. The page does not add a cutoff time or replace the programme-specific date.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-living-estimate-20261017",
+      "factId": "twente-bme-other-cost-living-estimate",
+      "sourceId": "twente-master-fees",
+      "relation": "supports",
+      "locator": "Monthly living costs",
+      "paraphrase": "The university page reports an average EUR 1,311 monthly living-cost estimate excluding tuition and states that actual costs vary.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-cgpa-20261017",
+      "factId": "twente-bme-application-requirement-cgpa",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Required documents",
+      "paraphrase": "International-degree applicants need at least 75% of the maximum CGPA or country equivalent; this does not guarantee admission and relevant-course grades are reviewed.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "twente-bme-documents-20261017",
+      "factId": "twente-bme-application-requirement-documents",
+      "sourceId": "twente-bme-admission",
+      "relation": "supports",
+      "locator": "Required documents",
+      "paraphrase": "The listed documents include diploma, transcript, motivation letter capped at 1,000 words and résumé.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-1",
+      "factId": "etf-si-institution-name-main",
+      "sourceId": "etf-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: University of Belgrade — School of Electrical Engineering. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-2",
+      "factId": "etf-si-name-main",
+      "sourceId": "etf-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Softversko inženjerstvo. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-3",
+      "factId": "etf-si-level-main",
+      "sourceId": "etf-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: undergraduate. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-4",
+      "factId": "etf-si-country-main",
+      "sourceId": "etf-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: RS. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-5",
+      "factId": "etf-si-city-main",
+      "sourceId": "etf-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Belgrade. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-6",
+      "factId": "etf-si-academic-year-main",
+      "sourceId": "etf-round",
+      "relation": "supports",
+      "locator": "9 September 2026 third-round call, academic year",
+      "paraphrase": "Third-round call for academic year 2026/2027.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-7",
+      "factId": "passau-cs-institution-name-main",
+      "sourceId": "passau-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: University of Passau. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-8",
+      "factId": "passau-cs-name-main",
+      "sourceId": "passau-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Computer Science (B.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-9",
+      "factId": "passau-cs-level-main",
+      "sourceId": "passau-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: undergraduate. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-10",
+      "factId": "passau-cs-country-main",
+      "sourceId": "passau-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: DE. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-11",
+      "factId": "passau-cs-city-main",
+      "sourceId": "passau-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Passau. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-12",
+      "factId": "passau-cs-academic-year-main",
+      "sourceId": "passau-program",
+      "relation": "context",
+      "locator": "Academic-year entry / intake table",
+      "paraphrase": "Source is general policy, not confirmation of one academic year.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-19",
+      "factId": "bologna-clef-institution-name-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: University of Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-20",
+      "factId": "bologna-clef-name-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Economics and Finance. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-21",
+      "factId": "bologna-clef-level-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: undergraduate. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-22",
+      "factId": "bologna-clef-country-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: IT. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-23",
+      "factId": "bologna-clef-city-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-24",
+      "factId": "bologna-clef-academic-year-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "Academic-year entry / intake table",
+      "paraphrase": "Academic-year scope 2026/2027.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-25",
+      "factId": "tum-informatics-institution-name-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Technical University of Munich. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-26",
+      "factId": "tum-informatics-name-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Informatics (M.Sc.). Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-27",
+      "factId": "tum-informatics-level-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: master. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-28",
+      "factId": "tum-informatics-country-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: DE. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-29",
+      "factId": "tum-informatics-city-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Garching. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-30",
+      "factId": "tum-informatics-academic-year-main",
+      "sourceId": "tum-program",
+      "relation": "context",
+      "locator": "Academic-year entry / intake table",
+      "paraphrase": "Source is general policy, not confirmation of one academic year.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-37",
+      "factId": "bologna-im-institution-name-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: University of Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-38",
+      "factId": "bologna-im-name-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: International Management. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-39",
+      "factId": "bologna-im-level-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: master. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-40",
+      "factId": "bologna-im-country-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: IT. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-41",
+      "factId": "bologna-im-city-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-42",
+      "factId": "bologna-im-academic-year-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Academic-year entry / intake table",
+      "paraphrase": "Academic-year scope 2026/2027.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-43",
+      "factId": "bologna-phd-cse-institution-name-main",
+      "sourceId": "bologna-phd-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: University of Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-44",
+      "factId": "bologna-phd-cse-name-main",
+      "sourceId": "bologna-phd-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Computer Science and Engineering. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-45",
+      "factId": "bologna-phd-cse-level-main",
+      "sourceId": "bologna-phd-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: phd. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-46",
+      "factId": "bologna-phd-cse-country-main",
+      "sourceId": "bologna-phd-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: IT. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-47",
+      "factId": "bologna-phd-cse-city-main",
+      "sourceId": "bologna-phd-program",
+      "relation": "supports",
+      "locator": "Programme heading / degree type / campus / university publisher",
+      "paraphrase": "Normalized identity: Bologna. Programme campus retained; institution name may be translated into English; country code is geographic normalization.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-48",
+      "factId": "bologna-phd-cse-academic-year-main",
+      "sourceId": "bologna-phd-program",
+      "relation": "supports",
+      "locator": "Academic-year entry / intake table",
+      "paraphrase": "Academic-year scope 2026/2027.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-49",
+      "factId": "etf-si-language-main",
+      "sourceId": "etf-foreign",
+      "relation": "supports",
+      "locator": "Foreign-student enrolment, closing note on all BSc teaching languages",
+      "paraphrase": "All School BSc programmes are taught in Serbian only.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-50",
+      "factId": "etf-si-duration-main",
+      "sourceId": "etf-curriculum",
+      "relation": "supports",
+      "locator": "Curriculum 2024, years 1–4 / semesters 1–8",
+      "paraphrase": "Eight semesters listed in the curriculum.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-51",
+      "factId": "etf-si-tuition-main",
+      "sourceId": "etf-round",
+      "relation": "supports",
+      "locator": "22 September 2026 third-round enrolment notice",
+      "paraphrase": "Third-round first-year tuition, 282000 RSD; does not imply this rate for all years or budget-funded students.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-52",
+      "factId": "etf-si-tuition-foreign",
+      "sourceId": "etf-round",
+      "relation": "supports",
+      "locator": "22 September 2026 third-round enrolment notice",
+      "paraphrase": "3000 EUR quoted; payable as RSD equivalent at the enrolment-day central-bank rate.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-53",
+      "factId": "etf-si-other-cost-admin",
+      "sourceId": "etf-round",
+      "relation": "supports",
+      "locator": "22 September 2026 notice, first enrolment administration charge",
+      "paraphrase": "First-enrolment administration fee, excludes separate university charges and living expenses.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-54",
+      "factId": "etf-si-application-requirement-qualification",
+      "sourceId": "etf-admission",
+      "relation": "supports",
+      "locator": "General undergraduate admission conditions",
+      "paraphrase": "Four-year secondary qualification; individual foreign-diploma recognition unresolved.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-55",
+      "factId": "etf-si-application-requirement-exam",
+      "sourceId": "etf-admission",
+      "relation": "supports",
+      "locator": "SI ranking / mathematics examination",
+      "paraphrase": "SI uses mathematics admission examination; physics-only pathway must not be transferred from ER.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-56",
+      "factId": "etf-si-application-deadline-main",
+      "sourceId": "etf-round",
+      "relation": "supports",
+      "locator": "9 September 2026 third-round call",
+      "paraphrase": "Third round closed 17 September 2026 at noon. Local timezone is not explicitly confirmed; retain null.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-57",
+      "factId": "etf-si-institutional-requirement-language-certificate",
+      "sourceId": "etf-round",
+      "relation": "supports",
+      "locator": "22 September 2026 enrolment notice, foreign entrants",
+      "paraphrase": "Requirement has exceptions; no universal nationality assumption.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-58",
+      "factId": "passau-cs-language-main",
+      "sourceId": "passau-program",
+      "relation": "supports",
+      "locator": "Overview, language of instruction",
+      "paraphrase": "Programme taught in German.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-59",
+      "factId": "passau-cs-duration-main",
+      "sourceId": "passau-program",
+      "relation": "supports",
+      "locator": "Overview, standard duration",
+      "paraphrase": "Six semesters.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-60",
+      "factId": "passau-cs-credits-main",
+      "sourceId": "passau-program",
+      "relation": "supports",
+      "locator": "Overview, ECTS",
+      "paraphrase": "180 ECTS.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-61",
+      "factId": "passau-cs-tuition-main",
+      "sourceId": "passau-costs",
+      "relation": "supports",
+      "locator": "Kosten und Finanzierung, Studiengebühren",
+      "paraphrase": "Current university policy charges no tuition. Future policy/year remains unconfirmed; compulsory semester fee is separate.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-62",
+      "factId": "passau-cs-other-cost-semester-2026-winter",
+      "sourceId": "passau-fee",
+      "relation": "supports",
+      "locator": "Winter semester 2026/27 contribution",
+      "paraphrase": "126.90 EUR winter 2026/27 contribution only; not a verified future-semester rate.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-63",
+      "factId": "passau-cs-other-cost-housing-lower",
+      "sourceId": "passau-living",
+      "relation": "supports",
+      "locator": "Cost of living: accommodation",
+      "paraphrase": "University housing guideline is 300–550 EUR/month. Store lower endpoint with explicit range note; never use it as total living cost.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-64",
+      "factId": "passau-cs-application-requirement-qualification",
+      "sourceId": "passau-program",
+      "relation": "supports",
+      "locator": "How to apply, qualification routes",
+      "paraphrase": "Admission route depends on qualification country; not automatic recognition of a Serbian diploma.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-65",
+      "factId": "passau-cs-application-requirement-german",
+      "sourceId": "passau-language",
+      "relation": "supports",
+      "locator": "Undergraduate table, B.Sc. Computer Science row",
+      "paraphrase": "Separate application and enrolment thresholds; accepted certificates require further review.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-66",
+      "factId": "passau-cs-institutional-requirement-main",
+      "sourceId": "passau-language",
+      "relation": "supports",
+      "locator": "Introductory language-certificate validity policy",
+      "paraphrase": "Language-certificate validity policy applies with programme-specific accepted certificates.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-76",
+      "factId": "bologna-clef-language-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "Programme overview, language",
+      "paraphrase": "English teaching language.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-77",
+      "factId": "bologna-clef-duration-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "Programme overview, duration",
+      "paraphrase": "Three years.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-78",
+      "factId": "bologna-clef-credits-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "Programme overview, credits",
+      "paraphrase": "180 credits.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-79",
+      "factId": "bologna-clef-tuition-main",
+      "sourceId": "bologna-max-fees",
+      "relation": "supports",
+      "locator": "PDF p.1, first-cycle base amount and exceptions",
+      "paraphrase": "Maximum variable contribution 2040 EUR. Code 6646 is not in increased-fee exceptions. Candidate actual bill unknown.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-80",
+      "factId": "bologna-clef-tuition-main",
+      "sourceId": "bologna-fees",
+      "relation": "supports",
+      "locator": "PDF p.1, first-cycle base amount and exceptions",
+      "paraphrase": "Maximum variable contribution 2040 EUR. Code 6646 is not in increased-fee exceptions. Candidate actual bill unknown.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-81",
+      "factId": "bologna-clef-tuition-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "PDF p.1, first-cycle base amount and exceptions",
+      "paraphrase": "Maximum variable contribution 2040 EUR. Code 6646 is not in increased-fee exceptions. Candidate actual bill unknown.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-82",
+      "factId": "bologna-clef-other-cost-fixed-fee",
+      "sourceId": "bologna-fees",
+      "relation": "supports",
+      "locator": "2026/27 first-year fixed instalment",
+      "paraphrase": "Fixed component is separate from variable contribution; not the complete annual tuition.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-83",
+      "factId": "bologna-clef-application-requirement-qualification",
+      "sourceId": "bologna-clef-admission",
+      "relation": "supports",
+      "locator": "General admission requirements",
+      "paraphrase": "Equivalence and any supplementary qualification evidence need individual assessment.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-84",
+      "factId": "bologna-clef-application-requirement-sat",
+      "sourceId": "bologna-clef-call",
+      "relation": "supports",
+      "locator": "PDF pp.6 and 11, SAT and score delivery",
+      "paraphrase": "2026/27 SAT selection only. Official English abstract says Italian original prevails.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-85",
+      "factId": "bologna-clef-application-deadline-main",
+      "sourceId": "bologna-clef-call",
+      "relation": "supports",
+      "locator": "PDF p.3, first-intake calendar",
+      "paraphrase": "First round closed 4 May 2026. Later rounds have different quotas; no date inferred for 2027.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-86",
+      "factId": "bologna-clef-institutional-requirement-main",
+      "sourceId": "bologna-clef-program",
+      "relation": "supports",
+      "locator": "2026/27 access and available places",
+      "paraphrase": "Year-specific capacity; older 120-place pages are a different year, not evidence for this intake.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-87",
+      "factId": "tum-informatics-language-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Language of instruction",
+      "paraphrase": "Programme describes instruction as usually English; do not imply all modules are English.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-88",
+      "factId": "tum-informatics-duration-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Standard duration",
+      "paraphrase": "Four semesters.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-89",
+      "factId": "tum-informatics-credits-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Programme overview, ECTS",
+      "paraphrase": "120 ECTS.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-90",
+      "factId": "tum-informatics-tuition-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Tuition fees for students from third countries",
+      "paraphrase": "6000 EUR per semester, not per year; applicability requires individual exemption assessment.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-91",
+      "factId": "tum-informatics-application-requirement-degree",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Application requirements and admission procedures",
+      "paraphrase": "Subject equivalence and detailed curriculum criteria require institutional assessment.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-92",
+      "factId": "tum-informatics-institutional-requirement-main",
+      "sourceId": "tum-program",
+      "relation": "supports",
+      "locator": "Aptitude assessment",
+      "paraphrase": "Assessment can lead to admission, rejection or interview. No admission probability inferred.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-104",
+      "factId": "bologna-im-language-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Programme overview, language",
+      "paraphrase": "English teaching language.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-105",
+      "factId": "bologna-im-duration-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Programme overview, duration",
+      "paraphrase": "Two years.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-106",
+      "factId": "bologna-im-credits-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Programme overview, credits",
+      "paraphrase": "120 credits.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-107",
+      "factId": "bologna-im-tuition-main",
+      "sourceId": "bologna-max-fees",
+      "relation": "supports",
+      "locator": "PDF p.5, code 6803",
+      "paraphrase": "4080 EUR maximum variable contribution; candidate bill unknown.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-108",
+      "factId": "bologna-im-tuition-main",
+      "sourceId": "bologna-fees",
+      "relation": "supports",
+      "locator": "PDF p.5, code 6803",
+      "paraphrase": "4080 EUR maximum variable contribution; candidate bill unknown.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-109",
+      "factId": "bologna-im-other-cost-fixed-fee",
+      "sourceId": "bologna-fees",
+      "relation": "supports",
+      "locator": "First-year fixed instalment 2026/27",
+      "paraphrase": "Fixed component separate from income-dependent variable contribution.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-110",
+      "factId": "bologna-im-application-requirement-degree",
+      "sourceId": "bologna-im-admission",
+      "relation": "supports",
+      "locator": "Curricular requirements and foreign qualifications",
+      "paraphrase": "Listed degree classes or alternative 36-credit subject route; commission evaluates equivalence. Detailed module mapping unresolved.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-111",
+      "factId": "bologna-im-application-requirement-english",
+      "sourceId": "bologna-im-admission",
+      "relation": "supports",
+      "locator": "Language requirements",
+      "paraphrase": "Accepted evidence and candidate certificate validity need assessment.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-112",
+      "factId": "bologna-im-application-deadline-main",
+      "sourceId": "bologna-im-call",
+      "relation": "supports",
+      "locator": "PDF p.5, selection registration calendar",
+      "paraphrase": "Selection closed 8 April 2026; degree-completion deadline is a separate requirement, not application deadline.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-113",
+      "factId": "bologna-im-institutional-requirement-main",
+      "sourceId": "bologna-im-program",
+      "relation": "supports",
+      "locator": "Admission type and available places",
+      "paraphrase": "Limited entry; application conditions do not guarantee admission.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-114",
+      "factId": "bologna-phd-cse-language-main",
+      "sourceId": "bologna-phd-round",
+      "relation": "supports",
+      "locator": "PDF p.1, programme language",
+      "paraphrase": "English programme; admission oral examination may be in Italian or English.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-115",
+      "factId": "bologna-phd-cse-duration-main",
+      "sourceId": "bologna-phd-round",
+      "relation": "supports",
+      "locator": "PDF p.1, duration",
+      "paraphrase": "Three years.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-116",
+      "factId": "bologna-phd-cse-intake-start-main",
+      "sourceId": "bologna-phd-round",
+      "relation": "supports",
+      "locator": "PDF p.1, activity start date",
+      "paraphrase": "Cycle 42 activity starts 1 November 2026.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-117",
+      "factId": "bologna-phd-cse-application-requirement-selection",
+      "sourceId": "bologna-phd-round",
+      "relation": "supports",
+      "locator": "PDF pp.1–4, admission and mandatory attachments",
+      "paraphrase": "Round-specific selection; official templates and mandatory documents must be checked in full call.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-118",
+      "factId": "bologna-phd-cse-application-deadline-main",
+      "sourceId": "bologna-phd-program",
+      "relation": "supports",
+      "locator": "Cycle 42, third-round deadline",
+      "paraphrase": "8 October 2026 at 23:59 as stated; exact timezone not confirmed, stored null. Not a 2027 deadline.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-119",
+      "factId": "bologna-phd-cse-scholarship-main",
+      "sourceId": "bologna-phd-round",
+      "relation": "supports",
+      "locator": "PDF p.2, gross annual scholarship amount",
+      "paraphrase": "18341.04 EUR gross/year; do not compare directly with generic monthly net illustration.",
+      "checkedOn": "2026-10-17"
+    },
+    {
+      "id": "e-120",
+      "factId": "bologna-phd-cse-institutional-requirement-main",
+      "sourceId": "bologna-phd-round",
+      "relation": "supports",
+      "locator": "PDF pp.1–2, position and funding table",
+      "paraphrase": "Specific third-round positions funded by ACN, Ferrari and CNR ISTC; no unrestricted scholarship or future position promised.",
+      "checkedOn": "2026-10-17"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "all-programs-twente-psych-approved-20261017",
+      "programId": "twente-psych",
+      "reviewer": "Viktor",
+      "reviewerKind": "human",
+      "decision": "approved",
+      "reviewedOn": "2026-10-17",
+      "contentDigest": "68d9f119d9aeb00cc59410b5d0ad24be52755546f7a9327e5d0392fb31092e8d",
+      "checklistComplete": true,
+      "acceptedUnknownFactIds": [
+        "twente-psych-other-cost-main",
+        "twente-psych-scholarship-main"
+      ],
+      "note": "Viktor explicitly confirmed the exact combined 1.0.3 digest and all 26 listed unknown facts on 2026-10-17. Approval is limited to controlled local catalogue publication and is not an individual admission, fee, scholarship, live AI, pilot, cloud or Phase 2 decision."
+    },
+    {
+      "id": "all-programs-twente-bme-approved-20261017",
+      "programId": "twente-bme",
+      "reviewer": "Viktor",
+      "reviewerKind": "human",
+      "decision": "approved",
+      "reviewedOn": "2026-10-17",
+      "contentDigest": "68d9f119d9aeb00cc59410b5d0ad24be52755546f7a9327e5d0392fb31092e8d",
+      "checklistComplete": true,
+      "acceptedUnknownFactIds": [
+        "twente-bme-other-cost-main",
+        "twente-bme-scholarship-main"
+      ],
+      "note": "Viktor explicitly confirmed the exact combined 1.0.3 digest and all 26 listed unknown facts on 2026-10-17. Approval is limited to controlled local catalogue publication and is not an individual admission, fee, scholarship, live AI, pilot, cloud or Phase 2 decision."
+    },
+    {
+      "id": "all-programs-etf-si-approved-20261017",
+      "programId": "etf-si",
+      "reviewer": "Viktor",
+      "reviewerKind": "human",
+      "decision": "approved",
+      "reviewedOn": "2026-10-17",
+      "contentDigest": "68d9f119d9aeb00cc59410b5d0ad24be52755546f7a9327e5d0392fb31092e8d",
+      "checklistComplete": true,
+      "acceptedUnknownFactIds": [
+        "etf-si-intake-start-main",
+        "etf-si-other-cost-living",
+        "etf-si-scholarship-main"
+      ],
+      "note": "Viktor explicitly confirmed the exact combined 1.0.3 digest and all 26 listed unknown facts on 2026-10-17. Approval is limited to controlled local catalogue publication and is not an individual admission, fee, scholarship, live AI, pilot, cloud or Phase 2 decision."
+    },
+    {
+      "id": "all-programs-passau-cs-approved-20261017",
+      "programId": "passau-cs",
+      "reviewer": "Viktor",
+      "reviewerKind": "human",
+      "decision": "approved",
+      "reviewedOn": "2026-10-17",
+      "contentDigest": "68d9f119d9aeb00cc59410b5d0ad24be52755546f7a9327e5d0392fb31092e8d",
+      "checklistComplete": true,
+      "acceptedUnknownFactIds": [
+        "passau-cs-academic-year-main",
+        "passau-cs-intake-start-main",
+        "passau-cs-other-cost-total",
+        "passau-cs-application-deadline-main",
+        "passau-cs-scholarship-main"
+      ],
+      "note": "Viktor explicitly confirmed the exact combined 1.0.3 digest and all 26 listed unknown facts on 2026-10-17. Approval is limited to controlled local catalogue publication and is not an individual admission, fee, scholarship, live AI, pilot, cloud or Phase 2 decision."
+    },
+    {
+      "id": "all-programs-bologna-clef-approved-20261017",
+      "programId": "bologna-clef",
+      "reviewer": "Viktor",
+      "reviewerKind": "human",
+      "decision": "approved",
+      "reviewedOn": "2026-10-17",
+      "contentDigest": "68d9f119d9aeb00cc59410b5d0ad24be52755546f7a9327e5d0392fb31092e8d",
+      "checklistComplete": true,
+      "acceptedUnknownFactIds": [
+        "bologna-clef-intake-start-main",
+        "bologna-clef-other-cost-living",
+        "bologna-clef-scholarship-main"
+      ],
+      "note": "Viktor explicitly confirmed the exact combined 1.0.3 digest and all 26 listed unknown facts on 2026-10-17. Approval is limited to controlled local catalogue publication and is not an individual admission, fee, scholarship, live AI, pilot, cloud or Phase 2 decision."
+    },
+    {
+      "id": "all-programs-tum-informatics-approved-20261017",
+      "programId": "tum-informatics",
+      "reviewer": "Viktor",
+      "reviewerKind": "human",
+      "decision": "approved",
+      "reviewedOn": "2026-10-17",
+      "contentDigest": "68d9f119d9aeb00cc59410b5d0ad24be52755546f7a9327e5d0392fb31092e8d",
+      "checklistComplete": true,
+      "acceptedUnknownFactIds": [
+        "tum-informatics-academic-year-main",
+        "tum-informatics-intake-start-main",
+        "tum-informatics-other-cost-main",
+        "tum-informatics-application-deadline-main",
+        "tum-informatics-scholarship-main"
+      ],
+      "note": "Viktor explicitly confirmed the exact combined 1.0.3 digest and all 26 listed unknown facts on 2026-10-17. Approval is limited to controlled local catalogue publication and is not an individual admission, fee, scholarship, live AI, pilot, cloud or Phase 2 decision."
+    },
+    {
+      "id": "all-programs-bologna-im-approved-20261017",
+      "programId": "bologna-im",
+      "reviewer": "Viktor",
+      "reviewerKind": "human",
+      "decision": "approved",
+      "reviewedOn": "2026-10-17",
+      "contentDigest": "68d9f119d9aeb00cc59410b5d0ad24be52755546f7a9327e5d0392fb31092e8d",
+      "checklistComplete": true,
+      "acceptedUnknownFactIds": [
+        "bologna-im-intake-start-main",
+        "bologna-im-other-cost-living",
+        "bologna-im-scholarship-main"
+      ],
+      "note": "Viktor explicitly confirmed the exact combined 1.0.3 digest and all 26 listed unknown facts on 2026-10-17. Approval is limited to controlled local catalogue publication and is not an individual admission, fee, scholarship, live AI, pilot, cloud or Phase 2 decision."
+    },
+    {
+      "id": "all-programs-bologna-phd-cse-approved-20261017",
+      "programId": "bologna-phd-cse",
+      "reviewer": "Viktor",
+      "reviewerKind": "human",
+      "decision": "approved",
+      "reviewedOn": "2026-10-17",
+      "contentDigest": "68d9f119d9aeb00cc59410b5d0ad24be52755546f7a9327e5d0392fb31092e8d",
+      "checklistComplete": true,
+      "acceptedUnknownFactIds": [
+        "bologna-phd-cse-tuition-main",
+        "bologna-phd-cse-other-cost-main",
+        "bologna-phd-cse-application-requirement-degree-equivalence"
+      ],
+      "note": "Viktor explicitly confirmed the exact combined 1.0.3 digest and all 26 listed unknown facts on 2026-10-17. Approval is limited to controlled local catalogue publication and is not an individual admission, fee, scholarship, live AI, pilot, cloud or Phase 2 decision."
+    }
+  ]
+}

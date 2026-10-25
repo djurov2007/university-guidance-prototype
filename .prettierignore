@@ -1,0 +1,17 @@
+node_modules/
+.next/
+.cache/
+coverage/
+playwright-report/
+test-results/
+package-lock.json
+next-env.d.ts
+*.tsbuildinfo
+*.pdf
+# Preserve earlier specification documents and original sources; format code and UI/architecture artifacts.
+AGENTS.md
+.agent/
+docs/*.md
+docs/plans/
+docs/research/
+docs/test-fixtures/

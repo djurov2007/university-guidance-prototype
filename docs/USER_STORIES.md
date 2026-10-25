@@ -1,0 +1,37 @@
+# Minimalne korisničke priče
+
+Dopuna 2026-10-06: Korak 6 proverava deterministički domain deo US-02/US-03 i synthetic proposal deo US-17 kroz [profilne testove](profile/VERIFICATION.md). To ne zatvara njihove kompletne UI/NLP/matching/pilot kriterijume. Pravi upload i integrisan produktni tok ostaju budući koraci.
+
+Verzija: 1.0, 2026-10-05. Status: specifikacija budućeg prototipa; Korak 4 implementira samo lokalni sintetički UI ([dokaz](ui/VERIFICATION.md)), bez zatvaranja produktnih/pilot kriterijuma. Primarni tok: [USER_FLOWS](USER_FLOWS.md). Svaka priča je obavezni deo ograničenog prototipa, osim izričito uslovnog dokumentacionog toka. Sintetički profili: [SYNTHETIC_PROFILES](test-fixtures/SYNTHETIC_PROFILES.md). Formalne kapije: [PROTOTYPE_ACCEPTANCE](PROTOTYPE_ACCEPTANCE.md).
+
+## Priče i acceptance kriterijumi
+
+| ID / korisnička priča | Given / When / Then kriterijum | Provera / veza |
+| --- | --- | --- |
+| US-01: Kao punoletni pozvani kandidat, želim da znam svrhu i granice prototipa pre unosa. | Given validan adult pristup; When otvorim početni tok; Then vidim englesku AI oznaku, ograničeni pregledani katalog Srbija/EU i pravila podataka. Nedozvoljen/istekao pristup ne otkriva zaštićen profil; nema javne registracije ni traženja pasoša. | S-01/S-11; AC-01/AC-16. |
+| US-02: Kao kandidat, želim da razjasnim cilj bez formulara od mnogo pitanja. | Given delimičan profil; When pošaljem cilj; Then sistem pita najviše jedno/dva relevantna pitanja i ne izmišlja nivo, valutu, državljanstvo ili godinu upisa. Ponovljeno “unknown” se ne pretvara u beskonačno isto pitanje. | S-02; SYN-UG-04/SYN-X-02; AC-02/AC-03. |
+| US-03: Kao korisnik, želim da vidim i ispravim profil koji sistem koristi. | Given user-stated, nepotvrđeno ili konfliktno polje; When pregledam/ispravim profil; Then vidim njegov status, sporna ekstrakcija čeka potvrdu, a eksplicitna korekcija ažurira relevantne rezultate. Suprotna nejasna tvrdnja ne prepisuje tiho staro polje. | S-03/S-04; SYN-X-01; AC-04. |
+| US-04: Kao kandidat za osnovne, želim pitanja primerena svojoj kvalifikaciji. | Given UG cilj; When nedostaje relevantan obrazovni podatak; Then pitaju se srednjoškolska kvalifikacija/zemlja/status i samo potrebni predmeti ili jezički rezultat. Integrisana ruta nije pogrešno označena kao post-bachelor master. | SYN-UG-01..04; AC-05. |
+| US-05: Kao master kandidat, želim da razumem preduslove za svoju prethodnu diplomu. | Given MA cilj/promenjena oblast; When program ima provereni obavezni predmet; Then iskustvo ili želja za promenom ne ukidaju uslov. Poznato neispunjenje nije match, nepoznat predmet traži pitanje/proveru. | SYN-MA-01..04; AC-06. |
+| US-06: Kao PhD kandidat, želim istraživački tok s jasnim finansiranjem. | Given PHD cilj; When tražim program/poziciju; Then pitanja obuhvataju temu, iskustvo, stepen, finansiranje i mentor/projekat ako relevantno. Program i zaposlena pozicija su različiti tipovi; nema izmišljenog mentora/otvorene pozicije. | SYN-PHD-01/02; AC-07. |
+| US-07: Kao kandidat, želim opcije koje poštuju moje čvrste granice. | Given potvrđena zemlja/jezik/budžet i institucionalna pravila; When pretraga završi; Then dobijem najviše tri validne primarne opcije, ili stvarnih 0/1/2. Hard uslov ne postaje soft radi više rezultata; preferenca utiče tek posle filtera. | S-05/S-06; SYN-UG-01/02, SYN-MA-02; AC-08. |
+| US-08: Kao korisnik, želim da razlikujem školarinu, životne troškove i neizvesno finansiranje. | Given godišnji/ukupni budžet s valutom; When opcija ima delimičan ili nepoznat trošak; Then nema lažne finansijske usklađenosti. Neodobrena stipendija ili PhD finansiranje ostaje uslovno. Unknown nije nula. | SYN-UG-03/SYN-MA-04/SYN-PHD-01/SYN-X-02; AC-03/AC-09. |
+| US-09: Kao korisnik, želim dokaze i vidljive praznine uz opciju. | Given katalog činjenica/source; When otvorim karticu; Then ključna tvrdnja ima postojeći relevantni izvor, datum, intake/kategoriju gde bitni, i status. Neproveren/zastareo/konfliktan kritičan podatak ne daje potvrđen match ili lažni rok. | S-09; SYN-MA-03/SYN-PHD-02; AC-10. |
+| US-10: Kao korisnik, želim da odlučim da li uopšte gledam alternativu van čvrste granice. | Given potencijalna opcija van jedne granice unutar Srbije/EU; When sistem je razmatra; Then pre imena/kartice pita dozvolu za konkretno odstupanje. No zadržava prvobitni tok; Yes daje zasebnu označenu uslovnu karticu bez ukidanja institucionalnog uslova. Opoziv je uklanja. | S-08/S-07; SYN-UG-02; AC-11. |
+| US-11: Kao kandidat bez odgovarajućeg rezultata, želim iskreno objašnjenje i koristan korak. | Given nema validnih opcija ili nema obrađene oblasti; When pretraga završi; Then vidim razliku između katalog rupe, poznatog neispunjenja i potrebne provere. Nema izmišljenog programa ni tvrdnje da nigde nema opcija. | S-06; SYN-MA-02/SYN-UG-04; AC-12. |
+| US-12: Kao korisnik, želim konkretan sledeći korak koji mogu sam da preduzmem. | Given match/uslovna opcija/no-match; When pregledam ishod; Then postoji proverljiv korak vezan za njega. Sistem ne šalje prijavu/poruku, ne tvrdi da je prijava poslata, ne garantuje prijem niti daje admissions probability score. | F-07; svi profili; AC-13. |
+| US-13: Kao korisnik, želim razumljivu grešku umesto lažne preporuke. | Given timeout/refusal/nevalidan izlaz ili limit; When zahtev zakaže; Then vidim englesku poruku, poslednji potvrđeni profil i dostupne katalog činjenice uz važeću sesiju. Nema izmišljanja, curenja tajni, nekontrolisanog retry ili budžetskog zaobilaženja. | S-10; mutacije svih profila; AC-14. |
+| US-14: Kao korisnik, želim zaštićenu sesiju i mogućnost kraja/brisanja. | Given sesija A i druga/istekla/obrisana sesija; When pokušam zaštićen pristup ili brisanje; Then tuđi podaci nisu dostupni, istek prekida rad i brisanje se potvrđuje tek nakon stvarne operacije. Ne obećavati brisanje kod svih dobavljača bez dokaza. | S-11; negativne mutacije; AC-15/AC-16. |
+| US-15: Kao korisnik, želim čitljiv engleski tok na telefonu i tastaturi. | Given bilo koje osnovno stanje; When ga koristim; Then tekst je na engleskom, fokus/label/poruka dostupni, a greška/nepoznato nisu samo boja. Srpski naziv programa se čuva bez uključivanja srpskog UI-ja. | D-002; SYN-UG-01; AC-17. |
+| US-16: Kao korisnik, želim da aplikacija ostane u obrazovnom domenu. | Given nevezan zahtev, falsifikovanje ili injection u tekstu/dokumentu; When ga pošaljem; Then sistem ograničava odgovor na dozvoljeni domen i ne menja dozvole, izvore ili profil po instrukciji iz sadržaja. | Zaštitne poruke; AC-18. |
+
+## Uslovna priča
+
+**US-17 - potvrda izdvojenih podataka iz dokumenta:** samo ako je O-007 zasebno odobren i bezbednosna kapija iz SCOPE zaista prošla. Given dozvoljeni redigovani fajl; When analiza predloži izmene; Then korisnik vidi izdvojene stavke, potvrđuje/odbija ih pre sporne promene profila, a original se obrađuje i briše prema stvarnoj politici. Dok je funkcija isključena, vidi se da nije dostupna; tekstualni tok ostaje upotrebljiv. AC-19 proverava oba režima. Korak 2 ne odobrava pravi upload.
+
+## Granice i prioritet
+
+Sve priče čuvaju [PROTOTYPE_SCOPE](PROTOTYPE_SCOPE.md). Nema novih naloga, naplate, maloletnika, family plana, tracker-a, zajednice, autonomnih agenata, globalne pretrage ili sopstvenog modela. Prvo tačnost/izvori, poštovanje ograničenja i zaštita, zatim stabilan osnovni tok i razumevanje; širina kataloga i dekoracija ne popravljaju kritičan neuspeh.
+
+Priče su pripremljene za buduće implementacione korake. Nijedna nije označena implementiranom ili runtime-testiranom u Koraku 2.
+
