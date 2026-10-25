@@ -2,7 +2,7 @@
 
 An English-only educational guidance prototype that helps prospective students clarify their study goals, compare reviewed university programmes and understand the evidence behind each result.
 
-> **Current status:** Phase 1 prototype complete. The hosted preview is invite-only and currently runs in safe mock mode. It is a demonstration system, not an admissions service or a production release.
+> **Current status:** Phase 1 prototype complete. The hosted preview is invite-only with a controlled live OpenAI integration. It is a demonstration system, not an admissions service or a production release.
 
 [View the controlled preview](https://university-guidance-prototype-production.up.railway.app) · [Read the Phase 1 closeout](docs/PHASE_1_CLOSEOUT.md) · [See the demo script](docs/demo/DEMO_SCRIPT.md)
 
@@ -111,6 +111,10 @@ Useful technical references:
 - [Catalogue data model](docs/data/DATA_MODEL.md)
 - [Security and privacy baseline](docs/security/SECURITY_PRIVACY_BASELINE.md)
 - [Known limitations](docs/demo/KNOWN_LIMITATIONS.md)
+
+## Live demo limits
+
+The hosted demo uses the real OpenAI API behind server-side controls: at most 200 lifetime attempts or USD 2 total, USD 0.50 per UTC day, USD 0.10 per session and USD 0.01 per request. The first limit reached stops further calls; there are no automatic retries. These are application-side limits, not a guarantee against misuse of a stolen provider key. Local defaults remain mock-only.
 
 ## Safety and scope
 
