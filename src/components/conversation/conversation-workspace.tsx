@@ -212,7 +212,7 @@ export function ConversationWorkspace({
       <div className="flow-notice">
         <strong>Fictional details only.</strong>{" "}
         {externalAi
-          ? "This controlled evaluation sends your fictional messages and limited profile/catalogue context to OpenAI for AI suggestions. The reviewed-catalogue choice can include its reviewed programme facts. Suggestions require your confirmation. The evaluation stops at 20 API attempts or USD 0.25 overall, with no automatic retries. Responses are requested without stored conversation state; this does not guarantee zero provider retention. "
+          ? "This controlled evaluation sends your fictional messages and limited profile/catalogue context to OpenAI for AI suggestions. The reviewed-catalogue choice can include its reviewed programme facts. Suggestions require your confirmation. The demonstration stops at 200 API attempts or USD 2 overall, USD 0.50 per UTC day, USD 0.10 per session or USD 0.01 per request, whichever limit is reached first, with no automatic retries. Responses are requested without stored conversation state; this does not guarantee zero provider retention. "
           : remotePreview
             ? "This controlled preview uses simulated explanations. "
             : "This local demonstration uses simulated explanations. "}

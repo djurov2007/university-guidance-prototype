@@ -34,6 +34,9 @@ COPY --from=production-dependencies /app/node_modules ./node_modules
 COPY --chown=nextjs:nodejs package.json ./package.json
 COPY --chown=nextjs:nodejs scripts/invitations.mjs ./scripts/invitations.mjs
 COPY --chown=nextjs:nodejs src ./src
+COPY --chown=nextjs:nodejs data/catalog ./data/catalog
+RUN test -s /app/data/catalog/published/catalog.v1.json
+RUN node --conditions=react-server --input-type=module -e 'import {readPublishedMatchingCatalog} from "./src/server/matching/catalog-adapter.ts"; if (!readPublishedMatchingCatalog("2026-10-17").programs.length) process.exit(1)'
 COPY scripts/docker-entrypoint.sh /usr/local/bin/prototype-entrypoint
 RUN chmod 0755 /usr/local/bin/prototype-entrypoint
 
